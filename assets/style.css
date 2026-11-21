@@ -108,3 +108,19 @@ table.st{width:100%;border-collapse:collapse;font-size:12px}
  .cname.big{font-size:20px}
  .astatus{margin-left:0;width:100%}
 }
+/* banner metrics (v1.1) */
+.banners{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:14px}
+.banners.three{grid-template-columns:repeat(3,1fr)}
+.banner{background:linear-gradient(180deg,#0f1d55,#09113a);border:2px solid #3d8bff;border-radius:7px;box-shadow:0 0 0 3px #06103a,0 0 0 4px #e86a10,0 0 16px rgba(61,139,255,.45) inset;padding:14px 18px;min-width:0}
+.banner .bk{font-family:"DejaVu Sans Mono",monospace;font-size:11px;font-weight:bold;letter-spacing:2px;color:#7fb2ff}
+.banner .bv{display:flex;align-items:center;gap:10px;font-size:46px;font-weight:bold;color:#fff;line-height:1.1;margin:4px 0;white-space:nowrap}
+.banner .bv svg{width:34px;height:34px;fill:#e86a10;flex:0 0 auto}
+.banner .bl{font-size:12px;color:#ffb070}
+.banner .bs{font-size:11px;color:#9fc2ff;margin-top:2px}
+.glance.small{gap:10px;margin-bottom:18px}
+.glance.small div{padding:6px 10px;border-width:1px}
+.glance.small b{font-size:18px;color:#ffb070}
+.glance.small span{font-size:10px}
+.glance.five{grid-template-columns:repeat(5,1fr)}
+@media (max-width:1000px){.banners.three{grid-template-columns:1fr 1fr}.glance.five{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:640px){.banners,.banners.three{grid-template-columns:1fr}.banner .bv{font-size:36px}.glance.five{grid-template-columns:1fr 1fr}}

@@ -26,7 +26,12 @@
   S.load(function (d) {
     var sm = d.summary, lead = d.order[0];
     var tiers = Object.keys(sm.tiers).filter(function (t) { return sm.tiers[t]; });
-    var glance = '<div class="glance"><div><b>' + S.f(sm.total_followers) + '</b><span>followers across ' + sm.partners + ' partners</span></div>' +
+    var banners = '<div class="banners">' +
+      S.banner('NETWORK TOTAL VIEWS', S.ICON.views, S.full(sm.total_views), 'total views, recent sampled posts',
+        'All ' + sm.partners + ' partners. ' + sm.views_posts + ' scored posts. Pinned posts left out.') +
+      S.banner('NETWORK TOTAL ENGAGEMENT', S.ICON_ENG, S.full(sm.total_engagement), S.engLabel(sm),
+        S.full(sm.total_likes) + ' likes + ' + S.full(sm.total_comments) + ' comments, same posts. Hidden counts are left out, not read as 0.') + '</div>';
+    var glance = '<div class="glance small"><div><b>' + S.f(sm.total_followers) + '</b><span>followers across ' + sm.partners + ' partners</span></div>' +
       '<div><b>' + sm.accounts + '</b><span>public accounts checked</span></div>' +
       '<div><b>' + sm.sampled_posts + '</b><span>recent posts scored</span></div>' +
       '<div><b>' + tiers.map(function (t) { return sm.tiers[t]; }).join(' \u00b7 ') + '</b><span>' + tiers.join(' \u00b7 ') + '</span></div></div>';
@@ -43,7 +48,7 @@
     document.getElementById('app').innerHTML =
       '<div class="top"><div class="kicker">STUDIO 145 \u00b7 PARTNER NETWORK</div><h1>Network status: <span class="o">' + sm.partners + ' partners</span></h1>' +
       '<div class="sub">' + S.esc(d.partners[lead].short) + ' leads at ' + S.esc(d.partners[lead].network.tier) + '. Click a tile to open that partner\u2019s dashboard.</div></div>' +
-      glance + '<div class="grid">' + d.order.map(function (s) { return tile(d, s); }).join('') + bench(d) + '</div>' +
+      banners + glance + '<div class="grid">' + d.order.map(function (s) { return tile(d, s); }).join('') + bench(d) + '</div>' +
       legend + gaps + S.foot(d);
   });
 })();

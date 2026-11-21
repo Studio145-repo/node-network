@@ -23,6 +23,16 @@
     var m = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'][+p[1] - 1];
     return m + ' ' + (+p[2]) + ', ' + p[0];
   };
+  /* full number with commas, for banner metrics */
+  S.full = function (n) { return (n === null || n === undefined) ? S.na() : Math.round(n).toLocaleString('en-US'); };
+  S.ICON_ENG = '<svg viewBox="0 0 24 24"><path d="M12 21s-8-5-8-11a4.5 4.5 0 0 1 8-3 4.5 4.5 0 0 1 8 3c0 6-8 11-8 11z"/></svg>';
+  S.banner = function (key, icon, value, label, small) {
+    return '<div class="banner"><div class="bk">' + key + '</div><div class="bv">' + icon + '<span>' + value + '</span></div><div class="bl">' +
+      label + '</div>' + (small ? '<div class="bs">' + small + '</div>' : '') + '</div>';
+  };
+  S.engLabel = function (x) {
+    return x.shares_saves_public ? 'likes + comments + shares + saves' : 'likes + comments; shares/saves not public yet';
+  };
   S.TIERC = { Rookie: '#8fa3c7', Champion: '#3fb6ff', Ultimate: '#e86a10', Mega: '#ffd23f' };
   S.PC = { Instagram: '#e86a10', YouTube: '#3fb6ff', TikTok: '#ffd23f' };
   S.PAB = { Instagram: 'IG', YouTube: 'YT', TikTok: 'TT' };

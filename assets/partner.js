@@ -58,7 +58,11 @@
     document.title = 'Studio 145 \u00b7 ' + p.name;
     var n = p.network, isBench = id === d.benchmark;
     var g = function (v, l) { return '<div><b>' + v + '</b><span>' + l + '</span></div>'; };
-    var glance = '<div class="glance six">' + g(S.f(n.total_followers), 'total followers, all pages') + g(S.f(n.median_views), 'median views per post') +
+    var banners = '<div class="banners three">' +
+      S.banner('TOTAL VIEWS', S.ICON.views, S.full(n.total_views), 'total views, recent sampled posts', n.views_posts + ' scored posts, all pages. Pinned posts left out.') +
+      S.banner('TOTAL REACH', S.ICON.reach, S.full(n.total_followers), 'reach (followers, until API data)', 'Followers summed across ' + n.accounts + ' page' + (n.accounts === 1 ? '' : 's') + '.') +
+      S.banner('TOTAL ENGAGEMENT', S.ICON_ENG, S.full(n.total_engagement), S.engLabel(n), S.full(n.total_likes) + ' likes + ' + S.full(n.total_comments) + ' comments. Hidden counts left out.') + '</div>';
+    var glance = '<div class="glance small five">' + g(S.f(n.median_views), 'median views per post') +
       g(S.f(n.median_rr, 1), 'median Public RR') + g(n.posts_per_week.toFixed(1), 'posts per week, all pages') +
       g(n.platforms + '/3', 'platforms covered') + g(n.sampled_posts, 'recent posts scored') + '</div>';
     var subbars = S.KEYS.map(function (k) {
@@ -81,7 +85,7 @@
       '<div class="sub">Network view: all ' + n.accounts + ' scored page' + (n.accounts === 1 ? '' : 's') + ' together, then each page on its own.</div></div>' +
       '<div class="hero"><div class="hhead"><img src="' + S.esc(p.avatar) + '" alt=""><div class="hname"><div class="cname big">' + S.esc(p.name) + '</div><div class="cniche">' +
       S.esc(p.niche) + ' \u00b7 ' + S.plats(p) + tags + '</div></div><div class="hscore"><div class="lv">NET SCORE</div><div class="big2">' + n.score + '</div>' + S.badge(n.tier) + '</div></div></div>' +
-      '<div class="section">NETWORK TOTALS</div>' + glance +
+      '<div class="section">NETWORK TOTALS</div>' + banners + glance +
       '<div class="two"><div class="panel"><div class="ptitle">SCORE PARTS (0-100)</div>' + subbars + '</div>' + fixes + '</div>' +
       (p.watch ? '<div class="watch">\u25B6 ' + S.esc(p.watch) + '</div>' : '') +
       '<div class="section">PAGES</div><div class="pages">' + p.accounts.map(acard).join('') + p.pending.map(pcard).join('') + '</div>' +
