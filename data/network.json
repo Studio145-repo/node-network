@@ -1,0 +1,2044 @@
+{
+ "capture_date": "2026-11-21",
+ "capture_label": "Nov 21, 2026",
+ "generated": "2026-11-21T12:23:58",
+ "order": [
+  "gtv-mandem-tv",
+  "clubchat",
+  "podcastchicken",
+  "tloy",
+  "the-balaclavas"
+ ],
+ "benchmark": "studio-145",
+ "gaps": [
+  "TLOY Instagram @theelensofyashu was unavailable on Nov 21. No IG numbers.",
+  "The Balaclavas: YouTube @thebalaclavas (2 videos, 42 views) has no IG link. Not scored.",
+  "PodcastChicken: YouTube @podcastchicken (4 videos, 19 views) has no IG link. No TikTok found.",
+  "ClubChat TikTok @clubchatent (2,910 followers) is unconfirmed. Not scored.",
+  "GTV TikTok @thegtvnetwork (4,778) counts for reach only. It is on their Linktree. No post sample.",
+  "Collab reels hide likes: PodcastChicken 9 of 12, GTV 2, The Balaclavas 1.",
+  "YouTube showed no comment count on 31 sampled videos. RR counts them as 0.",
+  "Shares, saves and watch time are not public for any account."
+ ],
+ "summary": {
+  "partners": 5,
+  "total_followers": 33872,
+  "accounts": 9,
+  "sampled_posts": 97,
+  "tiers": {
+   "Mega": 0,
+   "Ultimate": 1,
+   "Champion": 4,
+   "Rookie": 0
+  }
+ },
+ "weights": {
+  "reach": 25,
+  "views": 25,
+  "rr": 25,
+  "consistency": 15,
+  "coverage": 10
+ },
+ "partners": {
+  "gtv-mandem-tv": {
+   "slug": "gtv-mandem-tv",
+   "name": "GTV / The Mandem TV",
+   "short": "GTV",
+   "niche": "Podcasts, interviews, street",
+   "avatar": "assets/img/gtv-mandem-tv.jpg",
+   "fixes": [
+    "Fill the YouTube banner. It is mostly empty grey with two small photos.",
+    "Lock one thumbnail style. Fonts and colours change from video to video.",
+    "Pick one show name. Covers say \"The Man Dem Show\" and \"MAN DEM\"; our brief says The Mandem TV."
+   ],
+   "watch": "12 of 14 sampled IG reels are collabs led by other pages (city2gritty, realtmdworld).",
+   "pending": [],
+   "accounts": [
+    {
+     "platform": "Instagram",
+     "handle": "@thegtvnetwork",
+     "status": "confirmed",
+     "followers": 11700,
+     "followers_shown": "11.7K",
+     "total_posts": 3556,
+     "posts": [
+      {
+       "id": "Df-5KlIHqGj",
+       "url": "https://www.instagram.com/reel/Df-5KlIHqGj/",
+       "date": "2026-11-20",
+       "views": 1232,
+       "likes": 26,
+       "comments": 4,
+       "rr": 30.8,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "Df-pSxoiqni",
+       "url": "https://www.instagram.com/reel/Df-pSxoiqni/",
+       "date": "2026-11-20",
+       "views": 516,
+       "likes": 7,
+       "comments": 4,
+       "rr": 36.8,
+       "pinned": false,
+       "note": "collab post led by @city2gritty"
+      },
+      {
+       "id": "Df-aMm7mRl1",
+       "url": "https://www.instagram.com/reel/Df-aMm7mRl1/",
+       "date": "2026-11-20",
+       "views": 1222,
+       "likes": 14,
+       "comments": 9,
+       "rr": 33.6,
+       "pinned": false,
+       "note": "collab post led by @city2gritty"
+      },
+      {
+       "id": "Df-JDkmJ7Tq",
+       "url": "https://www.instagram.com/reel/Df-JDkmJ7Tq/",
+       "date": "2026-11-20",
+       "views": 979,
+       "likes": null,
+       "comments": null,
+       "rr": null,
+       "pinned": false,
+       "note": "collab post led by @shlimeyr; likes and comments hidden on public page"
+      },
+      {
+       "id": "Df906T6ias9",
+       "url": "https://www.instagram.com/reel/Df906T6ias9/",
+       "date": "2026-11-20",
+       "views": 904,
+       "likes": 11,
+       "comments": 4,
+       "rr": 25.4,
+       "pinned": false,
+       "note": "collab post led by @city2gritty"
+      },
+      {
+       "id": "Df900IdjzBk",
+       "url": "https://www.instagram.com/reel/Df900IdjzBk/",
+       "date": "2026-11-20",
+       "views": 4734,
+       "likes": 102,
+       "comments": 23,
+       "rr": 36.1,
+       "pinned": false,
+       "note": "collab post led by @city2gritty"
+      },
+      {
+       "id": "Df9gTSBCkGP",
+       "url": "https://www.instagram.com/reel/Df9gTSBCkGP/",
+       "date": "2026-11-20",
+       "views": 864,
+       "likes": 14,
+       "comments": 2,
+       "rr": 23.1,
+       "pinned": false,
+       "note": "collab post led by @city2gritty"
+      },
+      {
+       "id": "Df9D9IODQJ0",
+       "url": "https://www.instagram.com/reel/Df9D9IODQJ0/",
+       "date": "2026-11-19",
+       "views": 2627,
+       "likes": 51,
+       "comments": 32,
+       "rr": 56,
+       "pinned": false,
+       "note": "collab post led by @realtmdworld"
+      },
+      {
+       "id": "Df8bMXTsRsy",
+       "url": "https://www.instagram.com/reel/Df8bMXTsRsy/",
+       "date": "2026-11-19",
+       "views": 2525,
+       "likes": 59,
+       "comments": 2,
+       "rr": 25.7,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "Df8Y16IKyvD",
+       "url": "https://www.instagram.com/reel/Df8Y16IKyvD/",
+       "date": "2026-11-19",
+       "views": 75600,
+       "likes": 494,
+       "comments": 14,
+       "rr": 7.1,
+       "pinned": false,
+       "note": "collab post led by @undergroundnationclips"
+      },
+      {
+       "id": "Df8GJ4yDnYh",
+       "url": "https://www.instagram.com/reel/Df8GJ4yDnYh/",
+       "date": "2026-11-19",
+       "views": 3230,
+       "likes": 41,
+       "comments": 26,
+       "rr": 36.8,
+       "pinned": false,
+       "note": "collab post led by @realtmdworld"
+      },
+      {
+       "id": "Df7WIWjD0D2",
+       "url": "https://www.instagram.com/reel/Df7WIWjD0D2/",
+       "date": "2026-11-19",
+       "views": 1577,
+       "likes": 36,
+       "comments": 0,
+       "rr": 22.8,
+       "pinned": false,
+       "note": "collab post led by @city2gritty"
+      },
+      {
+       "id": "Df7SeitRe2S",
+       "url": "https://www.instagram.com/reel/Df7SeitRe2S/",
+       "date": "2026-11-19",
+       "views": 2344,
+       "likes": null,
+       "comments": null,
+       "rr": null,
+       "pinned": false,
+       "note": "collab post led by @shlimeyr; likes and comments hidden on public page"
+      },
+      {
+       "id": "Df7JKR3jlDm",
+       "url": "https://www.instagram.com/reel/Df7JKR3jlDm/",
+       "date": "2026-11-19",
+       "views": 2238,
+       "likes": 57,
+       "comments": 18,
+       "rr": 49.6,
+       "pinned": false,
+       "note": "collab post led by @realtmdworld"
+      }
+     ],
+     "sampled": 14,
+     "rr_posts": 12,
+     "median_views": 1907.5,
+     "median_rr": 32.2,
+     "posts_per_week": 91.0,
+     "latest": "2026-11-20",
+     "hidden_likes": 2
+    },
+    {
+     "platform": "YouTube",
+     "handle": "@TheGTVNetwork",
+     "status": "confirmed",
+     "followers": 7140,
+     "followers_shown": "7.14K",
+     "total_posts": 3900,
+     "posts": [
+      {
+       "id": "WYwIF43Feec",
+       "url": "https://www.youtube.com/watch?v=WYwIF43Feec",
+       "date": "2026-11-20",
+       "views": 102,
+       "likes": 3,
+       "comments": 1,
+       "rr": 58.8,
+       "pinned": false,
+       "note": "Short"
+      },
+      {
+       "id": "ZU1iBdbD0kQ",
+       "url": "https://www.youtube.com/watch?v=ZU1iBdbD0kQ",
+       "date": "2026-11-20",
+       "views": 36,
+       "likes": 1,
+       "comments": 1,
+       "rr": 111.1,
+       "pinned": false,
+       "note": "Short"
+      },
+      {
+       "id": "hM8kx7OXrHc",
+       "url": "https://www.youtube.com/watch?v=hM8kx7OXrHc",
+       "date": "2026-11-19",
+       "views": 285,
+       "likes": 8,
+       "comments": 4,
+       "rr": 70.2,
+       "pinned": false,
+       "note": "Video"
+      },
+      {
+       "id": "WBdQacpb8U4",
+       "url": "https://www.youtube.com/watch?v=WBdQacpb8U4",
+       "date": "2026-11-18",
+       "views": 70,
+       "likes": 3,
+       "comments": 3,
+       "rr": 171.4,
+       "pinned": false,
+       "note": "Video"
+      },
+      {
+       "id": "rt2geU0shsU",
+       "url": "https://www.youtube.com/watch?v=rt2geU0shsU",
+       "date": "2026-11-18",
+       "views": 45,
+       "likes": 1,
+       "comments": 2,
+       "rr": 155.6,
+       "pinned": false,
+       "note": "Video"
+      },
+      {
+       "id": "xqSUHx21mH4",
+       "url": "https://www.youtube.com/watch?v=xqSUHx21mH4",
+       "date": "2026-11-18",
+       "views": 102,
+       "likes": 2,
+       "comments": 2,
+       "rr": 78.4,
+       "pinned": false,
+       "note": "Video"
+      },
+      {
+       "id": "JcjHuoBNCaw",
+       "url": "https://www.youtube.com/watch?v=JcjHuoBNCaw",
+       "date": "2026-11-18",
+       "views": 58,
+       "likes": 2,
+       "comments": 1,
+       "rr": 86.2,
+       "pinned": false,
+       "note": "Video"
+      },
+      {
+       "id": "Xq2V1birX90",
+       "url": "https://www.youtube.com/watch?v=Xq2V1birX90",
+       "date": "2026-11-18",
+       "views": 20,
+       "likes": 1,
+       "comments": 1,
+       "rr": 200,
+       "pinned": false,
+       "note": "Video"
+      },
+      {
+       "id": "Gj9lDUgJg9Q",
+       "url": "https://www.youtube.com/watch?v=Gj9lDUgJg9Q",
+       "date": "2026-11-18",
+       "views": 206,
+       "likes": 3,
+       "comments": 1,
+       "rr": 29.1,
+       "pinned": false,
+       "note": "Short"
+      },
+      {
+       "id": "acDBPc5_T2E",
+       "url": "https://www.youtube.com/watch?v=acDBPc5_T2E",
+       "date": "2026-11-18",
+       "views": 751,
+       "likes": 15,
+       "comments": 6,
+       "rr": 43.9,
+       "pinned": false,
+       "note": "Short"
+      },
+      {
+       "id": "z4YjETB7B28",
+       "url": "https://www.youtube.com/watch?v=z4YjETB7B28",
+       "date": "2026-11-18",
+       "views": 168,
+       "likes": 2,
+       "comments": null,
+       "rr": 11.9,
+       "pinned": false,
+       "note": "Short; YouTube showed \"View comments\" with no count; RR treats as 0"
+      },
+      {
+       "id": "PQKorvC74eo",
+       "url": "https://www.youtube.com/watch?v=PQKorvC74eo",
+       "date": "2026-11-18",
+       "views": 247,
+       "likes": 1,
+       "comments": null,
+       "rr": 4,
+       "pinned": false,
+       "note": "Short; YouTube showed \"View comments\" with no count; RR treats as 0"
+      }
+     ],
+     "sampled": 12,
+     "rr_posts": 12,
+     "median_views": 102.0,
+     "median_rr": 74.3,
+     "posts_per_week": 38.5,
+     "latest": "2026-11-20",
+     "hidden_likes": 0
+    },
+    {
+     "platform": "TikTok",
+     "handle": "@thegtvnetwork",
+     "status": "linked from GTV Linktree (not on Dex list)",
+     "followers": 4778,
+     "followers_shown": "4,778",
+     "total_posts": null,
+     "posts": [],
+     "sampled": 0,
+     "rr_posts": 0,
+     "median_views": null,
+     "median_rr": null,
+     "posts_per_week": null,
+     "latest": null,
+     "hidden_likes": 0
+    }
+   ],
+   "not_scored": [
+    "TikTok @thegtvnetwork: reach counted (linked on their Linktree). No per-post sample.",
+    "Also on Linktree: X @TheGTVNetwork, Spotify and Apple Podcasts (The Man Dem Show), Calendly booking."
+   ],
+   "network": {
+    "csv_score": 76,
+    "csv_tier": "Ultimate",
+    "csv_subs": {
+     "views": 64,
+     "reach": 79,
+     "rr": 61,
+     "consistency": 100,
+     "coverage": 100
+    },
+    "total_followers": 23618,
+    "median_views": 807.5,
+    "median_rr": 36.8,
+    "posts_per_week": 129.5,
+    "platforms": 3,
+    "accounts": 3,
+    "sampled_posts": 26,
+    "rr_posts": 24,
+    "sub": {
+     "reach": 79,
+     "views": 64,
+     "rr": 61,
+     "consistency": 100,
+     "coverage": 100
+    },
+    "score": 76,
+    "tier": "Ultimate"
+   }
+  },
+  "clubchat": {
+   "slug": "clubchat",
+   "name": "ClubChat",
+   "short": "CLUB CHAT",
+   "niche": "Street & party interviews",
+   "avatar": "assets/img/clubchat.jpg",
+   "fixes": [
+    "Update the YouTube banner. It promises full videos Wed & Sun; the last one went up Sep 23, 2025.",
+    "Use plain text in the bio. The small-caps letters are hard to read and search.",
+    "Pick one spelling (CLUB CHAT vs ClubChat) and link the TikTok from the bio."
+   ],
+   "watch": "Instagram carries the reach. YouTube Shorts get about a fifth of the IG views.",
+   "pending": [],
+   "accounts": [
+    {
+     "platform": "Instagram",
+     "handle": "@clubchatent",
+     "status": "confirmed",
+     "followers": 4466,
+     "followers_shown": "4,466",
+     "total_posts": 100,
+     "posts": [
+      {
+       "id": "Df7PvEYOchZ",
+       "url": "https://www.instagram.com/reel/Df7PvEYOchZ/",
+       "date": "2026-11-19",
+       "views": 7038,
+       "likes": 118,
+       "comments": 32,
+       "rr": 30.4,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "Df2arSuR8Ar",
+       "url": "https://www.instagram.com/reel/Df2arSuR8Ar/",
+       "date": "2026-11-17",
+       "views": 2896,
+       "likes": 36,
+       "comments": 4,
+       "rr": 16.6,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "Df2GE5sRzKd",
+       "url": "https://www.instagram.com/reel/Df2GE5sRzKd/",
+       "date": "2026-11-17",
+       "views": 13100,
+       "likes": 369,
+       "comments": 110,
+       "rr": 53.4,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "DfpixtQRJzZ",
+       "url": "https://www.instagram.com/reel/DfpixtQRJzZ/",
+       "date": "2026-11-12",
+       "views": 1243,
+       "likes": 37,
+       "comments": 1,
+       "rr": 32.2,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "DfpOHaZRsjP",
+       "url": "https://www.instagram.com/reel/DfpOHaZRsjP/",
+       "date": "2026-11-12",
+       "views": 4408,
+       "likes": 122,
+       "comments": 21,
+       "rr": 42,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "DflC3ePOT4d",
+       "url": "https://www.instagram.com/reel/DflC3ePOT4d/",
+       "date": "2026-11-10",
+       "views": 5929,
+       "likes": 198,
+       "comments": 12,
+       "rr": 39.5,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "DfiIzmtO5P3",
+       "url": "https://www.instagram.com/reel/DfiIzmtO5P3/",
+       "date": "2026-11-09",
+       "views": 2592,
+       "likes": 63,
+       "comments": 20,
+       "rr": 47.5,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "DfhzpWlO1Ts",
+       "url": "https://www.instagram.com/reel/DfhzpWlO1Ts/",
+       "date": "2026-11-09",
+       "views": 4944,
+       "likes": 264,
+       "comments": 13,
+       "rr": 61.3,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "DffXnLyuieh",
+       "url": "https://www.instagram.com/reel/DffXnLyuieh/",
+       "date": "2026-11-08",
+       "views": 4374,
+       "likes": 157,
+       "comments": 17,
+       "rr": 47.6,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "DfcmX7QuvES",
+       "url": "https://www.instagram.com/reel/DfcmX7QuvES/",
+       "date": "2026-11-07",
+       "views": 6379,
+       "likes": 127,
+       "comments": 46,
+       "rr": 41.5,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "DfGBeHfuhbs",
+       "url": "https://www.instagram.com/reel/DfGBeHfuhbs/",
+       "date": "2026-10-29",
+       "views": null,
+       "likes": 106,
+       "comments": 12,
+       "rr": null,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "DFDjHJdOixK",
+       "url": "https://www.instagram.com/reel/DFDjHJdOixK/",
+       "date": "2025-01-20",
+       "views": 229000,
+       "likes": 5837,
+       "comments": 726,
+       "rr": null,
+       "pinned": true,
+       "note": null
+      },
+      {
+       "id": "DDC4VY-JfZy",
+       "url": "https://www.instagram.com/reel/DDC4VY-JfZy/",
+       "date": "2024-12-01",
+       "views": 182000,
+       "likes": 3605,
+       "comments": 781,
+       "rr": null,
+       "pinned": true,
+       "note": null
+      }
+     ],
+     "sampled": 11,
+     "rr_posts": 10,
+     "median_views": 4676.0,
+     "median_rr": 41.8,
+     "posts_per_week": 3.3,
+     "latest": "2026-11-19",
+     "hidden_likes": 0
+    },
+    {
+     "platform": "YouTube",
+     "handle": "@clubchatent",
+     "status": "confirmed",
+     "followers": 412,
+     "followers_shown": "412",
+     "total_posts": 336,
+     "posts": [
+      {
+       "id": "_iRJjIOFP3M",
+       "url": "https://www.youtube.com/watch?v=_iRJjIOFP3M",
+       "date": "2026-11-19",
+       "views": 1278,
+       "likes": 29,
+       "comments": 1,
+       "rr": 25,
+       "pinned": false,
+       "note": "Short"
+      },
+      {
+       "id": "bKWY-tbt39o",
+       "url": "https://www.youtube.com/watch?v=bKWY-tbt39o",
+       "date": "2026-11-17",
+       "views": 538,
+       "likes": 14,
+       "comments": null,
+       "rr": 26,
+       "pinned": false,
+       "note": "Short; YouTube showed \"View comments\" with no count; RR treats as 0"
+      },
+      {
+       "id": "kMD7R375OJ4",
+       "url": "https://www.youtube.com/watch?v=kMD7R375OJ4",
+       "date": "2026-11-12",
+       "views": 2,
+       "likes": 0,
+       "comments": null,
+       "rr": 0,
+       "pinned": false,
+       "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0"
+      },
+      {
+       "id": "YAI0QRcrehY",
+       "url": "https://www.youtube.com/watch?v=YAI0QRcrehY",
+       "date": "2026-11-12",
+       "views": 104,
+       "likes": 2,
+       "comments": null,
+       "rr": 19.2,
+       "pinned": false,
+       "note": "Short; YouTube showed \"View comments\" with no count; RR treats as 0"
+      },
+      {
+       "id": "gsuxJjmH4Yw",
+       "url": "https://www.youtube.com/watch?v=gsuxJjmH4Yw",
+       "date": "2026-11-12",
+       "views": 1371,
+       "likes": 28,
+       "comments": null,
+       "rr": 20.4,
+       "pinned": false,
+       "note": "Short; YouTube showed \"View comments\" with no count; RR treats as 0"
+      },
+      {
+       "id": "RpwT7atstvc",
+       "url": "https://www.youtube.com/watch?v=RpwT7atstvc",
+       "date": "2026-11-11",
+       "views": 1289,
+       "likes": 30,
+       "comments": 4,
+       "rr": 32.6,
+       "pinned": false,
+       "note": "Short"
+      },
+      {
+       "id": "Z0WIBEIG87s",
+       "url": "https://www.youtube.com/watch?v=Z0WIBEIG87s",
+       "date": "2026-11-09",
+       "views": 703,
+       "likes": 4,
+       "comments": null,
+       "rr": 5.7,
+       "pinned": false,
+       "note": "Short; YouTube showed \"View comments\" with no count; RR treats as 0"
+      },
+      {
+       "id": "fgCq7uRIUCQ",
+       "url": "https://www.youtube.com/watch?v=fgCq7uRIUCQ",
+       "date": "2026-11-09",
+       "views": 94,
+       "likes": 0,
+       "comments": null,
+       "rr": 0,
+       "pinned": false,
+       "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0"
+      },
+      {
+       "id": "6chZ2Tkd8Vo",
+       "url": "https://www.youtube.com/watch?v=6chZ2Tkd8Vo",
+       "date": "2026-11-08",
+       "views": 1416,
+       "likes": 9,
+       "comments": 2,
+       "rr": 10.6,
+       "pinned": false,
+       "note": "Short"
+      },
+      {
+       "id": "n6hHyPa2r8k",
+       "url": "https://www.youtube.com/watch?v=n6hHyPa2r8k",
+       "date": "2026-10-19",
+       "views": 1495,
+       "likes": 43,
+       "comments": 1,
+       "rr": 30.8,
+       "pinned": false,
+       "note": "Short"
+      },
+      {
+       "id": "eTf1SoisR0E",
+       "url": "https://www.youtube.com/watch?v=eTf1SoisR0E",
+       "date": "2026-10-13",
+       "views": 1285,
+       "likes": 21,
+       "comments": 1,
+       "rr": 18.7,
+       "pinned": false,
+       "note": "Short"
+      },
+      {
+       "id": "3E6e4jF2i6c",
+       "url": "https://www.youtube.com/watch?v=3E6e4jF2i6c",
+       "date": "2025-09-23",
+       "views": 31,
+       "likes": 2,
+       "comments": null,
+       "rr": 64.5,
+       "pinned": false,
+       "note": "Short; YouTube showed \"View comments\" with no count; RR treats as 0"
+      }
+     ],
+     "sampled": 12,
+     "rr_posts": 12,
+     "median_views": 990.5,
+     "median_rr": 19.8,
+     "posts_per_week": 2.2,
+     "latest": "2026-11-19",
+     "hidden_likes": 0
+    }
+   ],
+   "not_scored": [
+    "TikTok @clubchatent: 2,910 followers, 74.8K likes, same bio as IG. Unconfirmed, not scored.",
+    "Link hub: beacons.ai/clubchatent (from IG bio)."
+   ],
+   "network": {
+    "csv_score": 57,
+    "csv_tier": "Champion",
+    "csv_subs": {
+     "views": 71,
+     "reach": 56,
+     "rr": 51,
+     "consistency": 40,
+     "coverage": 67
+    },
+    "total_followers": 4878,
+    "median_views": 1393.5,
+    "median_rr": 30.6,
+    "posts_per_week": 5.6,
+    "platforms": 2,
+    "accounts": 2,
+    "sampled_posts": 23,
+    "rr_posts": 22,
+    "sub": {
+     "reach": 56,
+     "views": 71,
+     "rr": 51,
+     "consistency": 40,
+     "coverage": 67
+    },
+    "score": 57,
+    "tier": "Champion"
+   }
+  },
+  "podcastchicken": {
+   "slug": "podcastchicken",
+   "name": "PodcastChicken",
+   "short": "PODCASTCHICKEN",
+   "niche": "Party podcasts",
+   "avatar": "assets/img/podcastchicken.jpg",
+   "fixes": [
+    "Add a display name. The Instagram name field is blank.",
+    "Put the mic-and-chicken logo on reel covers. The grid has no shared template.",
+    "Add story highlights (none visible) for episodes and live shows."
+   ],
+   "watch": "Highest median views (5.9K) on fewest followers. 9 of 12 reels hide likes, so RR rests on 3 reels.",
+   "pending": [],
+   "accounts": [
+    {
+     "platform": "Instagram",
+     "handle": "@podcastchicken",
+     "status": "confirmed (Dex, Nov 21)",
+     "followers": 985,
+     "followers_shown": "985",
+     "total_posts": 41,
+     "posts": [
+      {
+       "id": "Df52UsOt57F",
+       "url": "https://www.instagram.com/reel/Df52UsOt57F/",
+       "date": "2026-11-18",
+       "views": 7668,
+       "likes": null,
+       "comments": null,
+       "rr": null,
+       "pinned": false,
+       "note": "collab post led by @ixtoronto; likes and comments hidden on public page"
+      },
+      {
+       "id": "Df0jMgsRgR-",
+       "url": "https://www.instagram.com/reel/Df0jMgsRgR-/",
+       "date": "2026-11-16",
+       "views": 16800,
+       "likes": 329,
+       "comments": 87,
+       "rr": 35.1,
+       "pinned": false,
+       "note": "collab post led by @aimeeosunduba"
+      },
+      {
+       "id": "DfvgiRCR0i_",
+       "url": "https://www.instagram.com/reel/DfvgiRCR0i_/",
+       "date": "2026-11-14",
+       "views": 3015,
+       "likes": 101,
+       "comments": 1,
+       "rr": 34.5,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "DfqSKAGIELc",
+       "url": "https://www.instagram.com/reel/DfqSKAGIELc/",
+       "date": "2026-11-12",
+       "views": 6284,
+       "likes": null,
+       "comments": null,
+       "rr": null,
+       "pinned": false,
+       "note": "collab post led by @ixtoronto; likes and comments hidden on public page"
+      },
+      {
+       "id": "Dfi4nHyNuAP",
+       "url": "https://www.instagram.com/reel/Dfi4nHyNuAP/",
+       "date": "2026-11-09",
+       "views": 7008,
+       "likes": null,
+       "comments": null,
+       "rr": null,
+       "pinned": false,
+       "note": "collab post led by @ixtoronto; likes and comments hidden on public page"
+      },
+      {
+       "id": "DfazgUSR2rr",
+       "url": "https://www.instagram.com/reel/DfazgUSR2rr/",
+       "date": "2026-11-06",
+       "views": 3545,
+       "likes": 71,
+       "comments": 11,
+       "rr": 29.3,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "DfDe2zoI4iz",
+       "url": "https://www.instagram.com/reel/DfDe2zoI4iz/",
+       "date": "2026-10-28",
+       "views": 5030,
+       "likes": null,
+       "comments": null,
+       "rr": null,
+       "pinned": false,
+       "note": "collab post led by @ixtoronto; likes and comments hidden on public page"
+      },
+      {
+       "id": "De2qIZeutfx",
+       "url": "https://www.instagram.com/reel/De2qIZeutfx/",
+       "date": "2026-10-23",
+       "views": 5560,
+       "likes": null,
+       "comments": null,
+       "rr": null,
+       "pinned": false,
+       "note": "collab post led by @ixtoronto; likes and comments hidden on public page"
+      },
+      {
+       "id": "DesYBWSNvgb",
+       "url": "https://www.instagram.com/reel/DesYBWSNvgb/",
+       "date": "2026-10-19",
+       "views": 3786,
+       "likes": null,
+       "comments": null,
+       "rr": null,
+       "pinned": false,
+       "note": "collab post led by @ixtoronto; likes and comments hidden on public page"
+      },
+      {
+       "id": "DeNgiZsAVUe",
+       "url": "https://www.instagram.com/reel/DeNgiZsAVUe/",
+       "date": "2026-10-07",
+       "views": 13200,
+       "likes": null,
+       "comments": null,
+       "rr": null,
+       "pinned": false,
+       "note": "collab post led by @ixtoronto; likes and comments hidden on public page"
+      },
+      {
+       "id": "DeK1DNhuszW",
+       "url": "https://www.instagram.com/reel/DeK1DNhuszW/",
+       "date": "2026-10-06",
+       "views": 2726,
+       "likes": null,
+       "comments": null,
+       "rr": null,
+       "pinned": false,
+       "note": "collab post led by @ixtoronto; likes and comments hidden on public page"
+      },
+      {
+       "id": "Dd99USpIfvu",
+       "url": "https://www.instagram.com/reel/Dd99USpIfvu/",
+       "date": "2026-10-01",
+       "views": 11200,
+       "likes": null,
+       "comments": null,
+       "rr": null,
+       "pinned": false,
+       "note": "collab post led by @ixtoronto; likes and comments hidden on public page"
+      }
+     ],
+     "sampled": 12,
+     "rr_posts": 3,
+     "median_views": 5922.0,
+     "median_rr": 34.5,
+     "posts_per_week": 1.8,
+     "latest": "2026-11-18",
+     "hidden_likes": 9
+    }
+   ],
+   "not_scored": [
+    "YouTube @podcastchicken: 4 videos, 19 views, no IG link. Likely not theirs.",
+    "TikTok @podcastchicken: \"Couldn't find this account\".",
+    "Event link: posh.vip (from IG bio)."
+   ],
+   "network": {
+    "csv_score": 51,
+    "csv_tier": "Champion",
+    "csv_subs": {
+     "views": 92,
+     "reach": 33,
+     "rr": 57,
+     "consistency": 12,
+     "coverage": 33
+    },
+    "total_followers": 985,
+    "median_views": 5922.0,
+    "median_rr": 34.5,
+    "posts_per_week": 1.8,
+    "platforms": 1,
+    "accounts": 1,
+    "sampled_posts": 12,
+    "rr_posts": 3,
+    "sub": {
+     "reach": 33,
+     "views": 92,
+     "rr": 57,
+     "consistency": 12,
+     "coverage": 33
+    },
+    "score": 51,
+    "tier": "Champion"
+   }
+  },
+  "tloy": {
+   "slug": "tloy",
+   "name": "The Lens of Yashu",
+   "short": "TLOY",
+   "niche": "Hip hop interviews",
+   "avatar": "assets/img/tloy.jpg",
+   "fixes": [
+    "Fix Instagram first. @theelensofyashu showed \"Profile isn't available\" on Nov 21.",
+    "Re-crop the avatar. The words \"The Lens Of Yashu\" are cut off in the circle.",
+    "Use one thumbnail template. \"TLOY TALKS\" tape and the periodic-table look compete."
+   ],
+   "watch": "TikTok and YouTube Shorts both sit near 200 views. Most YouTube Shorts showed no likes.",
+   "pending": [
+    {
+     "platform": "Instagram",
+     "handle": "@theelensofyashu",
+     "label": "IG pending (profile unavailable Nov 21)",
+     "detail": "Linked from his Linktree. Instagram showed \"Profile isn't available\" on Nov 21. No IG numbers. Score uses YouTube and TikTok only."
+    }
+   ],
+   "accounts": [
+    {
+     "platform": "YouTube",
+     "handle": "@thelensofyashu",
+     "status": "confirmed",
+     "followers": 529,
+     "followers_shown": "529",
+     "total_posts": 753,
+     "posts": [
+      {
+       "id": "ZOaMXc7ifVY",
+       "url": "https://www.youtube.com/watch?v=ZOaMXc7ifVY",
+       "date": "2026-11-19",
+       "views": 149,
+       "likes": 0,
+       "comments": null,
+       "rr": 0,
+       "pinned": false,
+       "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0"
+      },
+      {
+       "id": "Ia_PaXKjYFg",
+       "url": "https://www.youtube.com/watch?v=Ia_PaXKjYFg",
+       "date": "2026-11-17",
+       "views": 103,
+       "likes": 0,
+       "comments": null,
+       "rr": 0,
+       "pinned": false,
+       "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0"
+      },
+      {
+       "id": "T-ZJ9u0bDdU",
+       "url": "https://www.youtube.com/watch?v=T-ZJ9u0bDdU",
+       "date": "2026-11-17",
+       "views": 128,
+       "likes": 0,
+       "comments": null,
+       "rr": 0,
+       "pinned": false,
+       "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0"
+      },
+      {
+       "id": "WrcJBuSPWGA",
+       "url": "https://www.youtube.com/watch?v=WrcJBuSPWGA",
+       "date": "2026-11-17",
+       "views": 32,
+       "likes": 3,
+       "comments": null,
+       "rr": 93.8,
+       "pinned": false,
+       "note": "Video; YouTube showed \"View comments\" with no count; RR treats as 0"
+      },
+      {
+       "id": "bmtV8nuDZVU",
+       "url": "https://www.youtube.com/watch?v=bmtV8nuDZVU",
+       "date": "2026-11-16",
+       "views": 71,
+       "likes": 4,
+       "comments": null,
+       "rr": 56.3,
+       "pinned": false,
+       "note": "Video; YouTube showed \"View comments\" with no count; RR treats as 0"
+      },
+      {
+       "id": "N0LBPS19HNA",
+       "url": "https://www.youtube.com/watch?v=N0LBPS19HNA",
+       "date": "2026-11-13",
+       "views": 152,
+       "likes": 0,
+       "comments": null,
+       "rr": 0,
+       "pinned": false,
+       "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0"
+      },
+      {
+       "id": "SE-CrWL4tEo",
+       "url": "https://www.youtube.com/watch?v=SE-CrWL4tEo",
+       "date": "2026-11-13",
+       "views": 50,
+       "likes": 0,
+       "comments": null,
+       "rr": 0,
+       "pinned": false,
+       "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0"
+      },
+      {
+       "id": "c14yTf290I4",
+       "url": "https://www.youtube.com/watch?v=c14yTf290I4",
+       "date": "2026-11-13",
+       "views": 56,
+       "likes": 1,
+       "comments": 1,
+       "rr": 71.4,
+       "pinned": false,
+       "note": "Video"
+      },
+      {
+       "id": "Yheawlvta9I",
+       "url": "https://www.youtube.com/watch?v=Yheawlvta9I",
+       "date": "2026-11-08",
+       "views": 200,
+       "likes": 0,
+       "comments": 2,
+       "rr": 30,
+       "pinned": false,
+       "note": "Short; YouTube page shows no likes"
+      },
+      {
+       "id": "CCvwLwNYbeY",
+       "url": "https://www.youtube.com/watch?v=CCvwLwNYbeY",
+       "date": "2026-11-07",
+       "views": 210,
+       "likes": 0,
+       "comments": null,
+       "rr": 0,
+       "pinned": false,
+       "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0"
+      },
+      {
+       "id": "6CUF5K1OiVY",
+       "url": "https://www.youtube.com/watch?v=6CUF5K1OiVY",
+       "date": "2026-11-06",
+       "views": 258,
+       "likes": 0,
+       "comments": null,
+       "rr": 0,
+       "pinned": false,
+       "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0"
+      },
+      {
+       "id": "SAlEhgYOtuE",
+       "url": "https://www.youtube.com/watch?v=SAlEhgYOtuE",
+       "date": "2026-11-06",
+       "views": 220,
+       "likes": 0,
+       "comments": null,
+       "rr": 0,
+       "pinned": false,
+       "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0"
+      }
+     ],
+     "sampled": 12,
+     "rr_posts": 12,
+     "median_views": 138.5,
+     "median_rr": 0.0,
+     "posts_per_week": 5.9,
+     "latest": "2026-11-19",
+     "hidden_likes": 0
+    },
+    {
+     "platform": "TikTok",
+     "handle": "@thelensofyashu",
+     "status": "confirmed",
+     "followers": 560,
+     "followers_shown": "560",
+     "total_posts": null,
+     "posts": [
+      {
+       "id": "7709917964983831829",
+       "url": "https://www.tiktok.com/@thelensofyashu/video/7709917964983831829",
+       "date": "2026-11-19",
+       "views": 218,
+       "likes": 8,
+       "comments": 0,
+       "rr": 36.7,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "7709915028211682580",
+       "url": "https://www.tiktok.com/@thelensofyashu/video/7709915028211682580",
+       "date": "2026-11-19",
+       "views": 226,
+       "likes": 5,
+       "comments": 0,
+       "rr": 22.1,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "7708917897992736020",
+       "url": "https://www.tiktok.com/@thelensofyashu/video/7708917897992736020",
+       "date": "2026-11-16",
+       "views": 256,
+       "likes": 7,
+       "comments": 1,
+       "rr": 39.1,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "7708914198859861268",
+       "url": "https://www.tiktok.com/@thelensofyashu/video/7708914198859861268",
+       "date": "2026-11-16",
+       "views": 275,
+       "likes": 11,
+       "comments": 0,
+       "rr": 40,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "7708428476294040853",
+       "url": "https://www.tiktok.com/@thelensofyashu/video/7708428476294040853",
+       "date": "2026-11-15",
+       "views": 163,
+       "likes": 2,
+       "comments": 1,
+       "rr": 30.7,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "7708423891940674837",
+       "url": "https://www.tiktok.com/@thelensofyashu/video/7708423891940674837",
+       "date": "2026-11-15",
+       "views": 225,
+       "likes": 4,
+       "comments": 1,
+       "rr": 31.1,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "7707687083518758145",
+       "url": "https://www.tiktok.com/@thelensofyashu/video/7707687083518758145",
+       "date": "2026-11-13",
+       "views": 1498,
+       "likes": 49,
+       "comments": 7,
+       "rr": 46.7,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "7707683457597476102",
+       "url": "https://www.tiktok.com/@thelensofyashu/video/7707683457597476102",
+       "date": "2026-11-13",
+       "views": 227,
+       "likes": 3,
+       "comments": 0,
+       "rr": 13.2,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "7705834778313903380",
+       "url": "https://www.tiktok.com/@thelensofyashu/video/7705834778313903380",
+       "date": "2026-11-08",
+       "views": 339,
+       "likes": 5,
+       "comments": 0,
+       "rr": 14.7,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "7705443339251813633",
+       "url": "https://www.tiktok.com/@thelensofyashu/video/7705443339251813633",
+       "date": "2026-11-07",
+       "views": 240,
+       "likes": 10,
+       "comments": 1,
+       "rr": 54.2,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "7676896126452239636",
+       "url": "https://www.tiktok.com/@thelensofyashu/video/7676896126452239636",
+       "date": "2026-08-22",
+       "views": 109700,
+       "likes": 7019,
+       "comments": 270,
+       "rr": null,
+       "pinned": true,
+       "note": "pinned, excluded"
+      },
+      {
+       "id": "7529150983729925432",
+       "url": "https://www.tiktok.com/@thelensofyashu/video/7529150983729925432",
+       "date": "2025-07-20",
+       "views": 172500,
+       "likes": 5254,
+       "comments": 56,
+       "rr": null,
+       "pinned": true,
+       "note": "pinned, excluded"
+      }
+     ],
+     "sampled": 10,
+     "rr_posts": 10,
+     "median_views": 233.5,
+     "median_rr": 33.9,
+     "posts_per_week": 5.2,
+     "latest": "2026-11-19",
+     "hidden_likes": 0
+    }
+   ],
+   "not_scored": [
+    "Instagram @theelensofyashu: linked from his Linktree, but Instagram showed \"Profile isn't available\" on Nov 21. No IG numbers."
+   ],
+   "network": {
+    "csv_score": 49,
+    "csv_tier": "Champion",
+    "csv_subs": {
+     "views": 44,
+     "reach": 35,
+     "rr": 43,
+     "consistency": 80,
+     "coverage": 67
+    },
+    "total_followers": 1089,
+    "median_views": 214.0,
+    "median_rr": 26.1,
+    "posts_per_week": 11.2,
+    "platforms": 2,
+    "accounts": 2,
+    "sampled_posts": 22,
+    "rr_posts": 22,
+    "sub": {
+     "reach": 35,
+     "views": 44,
+     "rr": 43,
+     "consistency": 80,
+     "coverage": 67
+    },
+    "score": 49,
+    "tier": "Champion"
+   }
+  },
+  "the-balaclavas": {
+   "slug": "the-balaclavas",
+   "name": "The Balaclavas",
+   "short": "BALACLAVAS",
+   "niche": "Toronto news & journalism",
+   "avatar": "assets/img/the-balaclavas.jpg",
+   "fixes": [
+    "Pick one name. IG says \"The Unknown 3\", the bio says Balaclava Diaries.",
+    "Add a wordmark to the avatar. Three masked faces do not read at small size.",
+    "Swap the single Eventbrite bio link for a link hub. The bio promises merch."
+   ],
+   "watch": "The newest reel on the public Reels tab is from Jul 12, 2026. No reels since then.",
+   "pending": [],
+   "accounts": [
+    {
+     "platform": "Instagram",
+     "handle": "@3balaclavas",
+     "status": "confirmed (Dex, Nov 21)",
+     "followers": 3302,
+     "followers_shown": "3,302",
+     "total_posts": 709,
+     "posts": [
+      {
+       "id": "DatejCnk44P",
+       "url": "https://www.instagram.com/reel/DatejCnk44P/",
+       "date": "2026-07-12",
+       "views": 697,
+       "likes": 9,
+       "comments": 0,
+       "rr": 12.9,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "DaoUF68AerT",
+       "url": "https://www.instagram.com/reel/DaoUF68AerT/",
+       "date": "2026-07-10",
+       "views": 622,
+       "likes": 18,
+       "comments": 2,
+       "rr": 38.6,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "DalKJ5kpo18",
+       "url": "https://www.instagram.com/reel/DalKJ5kpo18/",
+       "date": "2026-07-09",
+       "views": 309,
+       "likes": 15,
+       "comments": 1,
+       "rr": 58.3,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "DajKR-eCPkn",
+       "url": "https://www.instagram.com/reel/DajKR-eCPkn/",
+       "date": "2026-07-08",
+       "views": 2648,
+       "likes": 54,
+       "comments": 0,
+       "rr": 20.4,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "DaiOWW5JtEh",
+       "url": "https://www.instagram.com/reel/DaiOWW5JtEh/",
+       "date": "2026-07-08",
+       "views": 108,
+       "likes": 1,
+       "comments": 0,
+       "rr": 9.3,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "DaglXK7itIY",
+       "url": "https://www.instagram.com/reel/DaglXK7itIY/",
+       "date": "2026-07-07",
+       "views": 589,
+       "likes": 14,
+       "comments": 2,
+       "rr": 34,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "DagJkSiBtDm",
+       "url": "https://www.instagram.com/reel/DagJkSiBtDm/",
+       "date": "2026-07-07",
+       "views": 770,
+       "likes": 13,
+       "comments": 0,
+       "rr": 16.9,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "DaeAriMATuQ",
+       "url": "https://www.instagram.com/reel/DaeAriMATuQ/",
+       "date": "2026-07-06",
+       "views": 630,
+       "likes": 15,
+       "comments": 0,
+       "rr": 23.8,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "DabcrQgCVUk",
+       "url": "https://www.instagram.com/reel/DabcrQgCVUk/",
+       "date": "2026-07-05",
+       "views": 386,
+       "likes": 10,
+       "comments": 0,
+       "rr": 25.9,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "DaY4EHlD9af",
+       "url": "https://www.instagram.com/reel/DaY4EHlD9af/",
+       "date": "2026-07-04",
+       "views": 528,
+       "likes": 17,
+       "comments": 1,
+       "rr": 37.9,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "DaYcFTjADPi",
+       "url": "https://www.instagram.com/reel/DaYcFTjADPi/",
+       "date": "2026-07-04",
+       "views": 745,
+       "likes": 11,
+       "comments": 2,
+       "rr": 22.8,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "DaWSwc0ipE9",
+       "url": "https://www.instagram.com/reel/DaWSwc0ipE9/",
+       "date": "2026-07-03",
+       "views": 275,
+       "likes": 4,
+       "comments": 1,
+       "rr": 25.5,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "DaVLDJ2Op9I",
+       "url": "https://www.instagram.com/reel/DaVLDJ2Op9I/",
+       "date": "2026-07-03",
+       "views": 8568,
+       "likes": null,
+       "comments": null,
+       "rr": null,
+       "pinned": false,
+       "note": "collab post led by @clubchatent; likes and comments hidden on public page"
+      },
+      {
+       "id": "DaUBLkEFV9f",
+       "url": "https://www.instagram.com/reel/DaUBLkEFV9f/",
+       "date": "2026-07-02",
+       "views": 741,
+       "likes": 23,
+       "comments": 2,
+       "rr": 39.1,
+       "pinned": false,
+       "note": null
+      }
+     ],
+     "sampled": 14,
+     "rr_posts": 13,
+     "median_views": 626.0,
+     "median_rr": 25.5,
+     "posts_per_week": 0.0,
+     "latest": "2026-07-12",
+     "hidden_likes": 1
+    }
+   ],
+   "not_scored": [
+    "YouTube @thebalaclavas: 2 videos, 42 views, no IG link. Likely not theirs.",
+    "TikTok @3balaclavas: \"Las 3 hermanas\", 2 followers, Spanish bio. Not theirs."
+   ],
+   "network": {
+    "csv_score": 42,
+    "csv_tier": "Champion",
+    "csv_subs": {
+     "views": 60,
+     "reach": 51,
+     "rr": 42,
+     "consistency": 0,
+     "coverage": 33
+    },
+    "total_followers": 3302,
+    "median_views": 626.0,
+    "median_rr": 25.5,
+    "posts_per_week": 0,
+    "platforms": 1,
+    "accounts": 1,
+    "sampled_posts": 14,
+    "rr_posts": 13,
+    "sub": {
+     "reach": 51,
+     "views": 60,
+     "rr": 42,
+     "consistency": 0,
+     "coverage": 33
+    },
+    "score": 42,
+    "tier": "Champion"
+   }
+  },
+  "studio-145": {
+   "slug": "studio-145",
+   "name": "Studio 145 (benchmark)",
+   "short": "STUDIO 145",
+   "niche": "Our pages",
+   "avatar": "assets/img/studio-145.jpg",
+   "fixes": [],
+   "watch": "Same formula, our public pages.",
+   "pending": [],
+   "accounts": [
+    {
+     "platform": "Instagram",
+     "handle": "@thatcloudstudio",
+     "status": "ours",
+     "followers": 12100,
+     "followers_shown": "12.1K",
+     "total_posts": 1041,
+     "posts": [
+      {
+       "id": "DgAfQt0Ovjw",
+       "url": "https://www.instagram.com/reel/DgAfQt0Ovjw/",
+       "date": "2026-11-21",
+       "views": 6,
+       "likes": 1,
+       "comments": 0,
+       "rr": 166.7,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "DgATxJ7uIzq",
+       "url": "https://www.instagram.com/reel/DgATxJ7uIzq/",
+       "date": "2026-11-21",
+       "views": 149,
+       "likes": 3,
+       "comments": 0,
+       "rr": 20.1,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "Df-IVd5OPHA",
+       "url": "https://www.instagram.com/reel/Df-IVd5OPHA/",
+       "date": "2026-11-20",
+       "views": 4504,
+       "likes": 160,
+       "comments": 4,
+       "rr": 38.2,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "Df8SXuROEM9",
+       "url": "https://www.instagram.com/reel/Df8SXuROEM9/",
+       "date": "2026-11-19",
+       "views": 375,
+       "likes": 4,
+       "comments": 0,
+       "rr": 10.7,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "Df7qaRiDpf7",
+       "url": "https://www.instagram.com/reel/Df7qaRiDpf7/",
+       "date": "2026-11-19",
+       "views": 21000,
+       "likes": 685,
+       "comments": 47,
+       "rr": 39.3,
+       "pinned": false,
+       "note": "collab post led by @thatstratusstudio"
+      },
+      {
+       "id": "Df6ICCyunsS",
+       "url": "https://www.instagram.com/reel/Df6ICCyunsS/",
+       "date": "2026-11-18",
+       "views": 7708,
+       "likes": 166,
+       "comments": 19,
+       "rr": 28.9,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "Df5-ZcSOZhb",
+       "url": "https://www.instagram.com/reel/Df5-ZcSOZhb/",
+       "date": "2026-11-18",
+       "views": 463,
+       "likes": 6,
+       "comments": 4,
+       "rr": 38.9,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "Dfx2jsdOCuw",
+       "url": "https://www.instagram.com/reel/Dfx2jsdOCuw/",
+       "date": "2026-11-15",
+       "views": 2737,
+       "likes": 27,
+       "comments": 3,
+       "rr": 13.2,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "Dfy0ItZOTPZ",
+       "url": "https://www.instagram.com/reel/Dfy0ItZOTPZ/",
+       "date": "2026-11-15",
+       "views": 2852,
+       "likes": 47,
+       "comments": 3,
+       "rr": 19.6,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "DasqikYOP88",
+       "url": "https://www.instagram.com/reel/DasqikYOP88/",
+       "date": "2026-07-12",
+       "views": 662000,
+       "likes": 54000,
+       "comments": 1215,
+       "rr": null,
+       "pinned": true,
+       "note": null
+      },
+      {
+       "id": "DWUz78kjn7F",
+       "url": "https://www.instagram.com/reel/DWUz78kjn7F/",
+       "date": "2026-03-25",
+       "views": 32200,
+       "likes": 788,
+       "comments": 112,
+       "rr": null,
+       "pinned": true,
+       "note": null
+      },
+      {
+       "id": "DV7InVmDlsh",
+       "url": "https://www.instagram.com/reel/DV7InVmDlsh/",
+       "date": "2026-03-15",
+       "views": 501000,
+       "likes": 27000,
+       "comments": 513,
+       "rr": null,
+       "pinned": true,
+       "note": null
+      }
+     ],
+     "sampled": 9,
+     "rr_posts": 9,
+     "median_views": 2737,
+     "median_rr": 28.9,
+     "posts_per_week": 9.3,
+     "latest": "2026-11-21",
+     "hidden_likes": 0
+    },
+    {
+     "platform": "Instagram",
+     "handle": "@thatstratusstudio",
+     "status": "ours",
+     "followers": 134,
+     "followers_shown": "134",
+     "total_posts": 59,
+     "posts": [
+      {
+       "id": "Df8ntj8EcEk",
+       "url": "https://www.instagram.com/reel/Df8ntj8EcEk/",
+       "date": "2026-11-19",
+       "views": 4340,
+       "likes": 123,
+       "comments": 5,
+       "rr": 31.8,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "Df8ICb8D-fR",
+       "url": "https://www.instagram.com/reel/Df8ICb8D-fR/",
+       "date": "2026-11-19",
+       "views": 6428,
+       "likes": 300,
+       "comments": 8,
+       "rr": 50.4,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "Df7qaRiDpf7",
+       "url": "https://www.instagram.com/reel/Df7qaRiDpf7/",
+       "date": "2026-11-19",
+       "views": 21000,
+       "likes": 685,
+       "comments": 47,
+       "rr": 39.3,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "Df5qVihDKXQ",
+       "url": "https://www.instagram.com/reel/Df5qVihDKXQ/",
+       "date": "2026-11-18",
+       "views": 2861,
+       "likes": 124,
+       "comments": 5,
+       "rr": 48.6,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "Df5YBrrCZ1S",
+       "url": "https://www.instagram.com/reel/Df5YBrrCZ1S/",
+       "date": "2026-11-18",
+       "views": 2064,
+       "likes": 42,
+       "comments": 2,
+       "rr": 23.3,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "Df433ULiYs8",
+       "url": "https://www.instagram.com/reel/Df433ULiYs8/",
+       "date": "2026-11-18",
+       "views": 1902,
+       "likes": 50,
+       "comments": 3,
+       "rr": 31,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "Df3T-7hDKD_",
+       "url": "https://www.instagram.com/reel/Df3T-7hDKD_/",
+       "date": "2026-11-17",
+       "views": 2470,
+       "likes": 92,
+       "comments": 3,
+       "rr": 40.9,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "Df2zNAQjro8",
+       "url": "https://www.instagram.com/reel/Df2zNAQjro8/",
+       "date": "2026-11-17",
+       "views": 439,
+       "likes": 6,
+       "comments": 0,
+       "rr": 13.7,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "Df2WKIFCdWZ",
+       "url": "https://www.instagram.com/reel/Df2WKIFCdWZ/",
+       "date": "2026-11-17",
+       "views": 257,
+       "likes": 3,
+       "comments": 0,
+       "rr": 11.7,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "Df0kpxyDvVZ",
+       "url": "https://www.instagram.com/reel/Df0kpxyDvVZ/",
+       "date": "2026-11-16",
+       "views": 1325,
+       "likes": 33,
+       "comments": 0,
+       "rr": 24.9,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "Df0HBt0Ds7s",
+       "url": "https://www.instagram.com/reel/Df0HBt0Ds7s/",
+       "date": "2026-11-16",
+       "views": 2581,
+       "likes": 117,
+       "comments": 2,
+       "rr": 47.7,
+       "pinned": false,
+       "note": null
+      },
+      {
+       "id": "Dfzw-J7jtvi",
+       "url": "https://www.instagram.com/reel/Dfzw-J7jtvi/",
+       "date": "2026-11-16",
+       "views": 3524,
+       "likes": 86,
+       "comments": 2,
+       "rr": 26.1,
+       "pinned": false,
+       "note": null
+      }
+     ],
+     "sampled": 12,
+     "rr_posts": 12,
+     "median_views": 2525.5,
+     "median_rr": 31.4,
+     "posts_per_week": 25.7,
+     "latest": "2026-11-19",
+     "hidden_likes": 0
+    },
+    {
+     "platform": "YouTube",
+     "handle": "@ThatCloudStudioTV",
+     "status": "ours",
+     "followers": 143,
+     "followers_shown": "143",
+     "total_posts": null,
+     "posts": [
+      {
+       "id": "4nzVz24318A",
+       "url": "https://www.youtube.com/watch?v=4nzVz24318A",
+       "date": "2026-11-20",
+       "views": 35,
+       "likes": 0,
+       "comments": null,
+       "rr": 0,
+       "pinned": false,
+       "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0"
+      },
+      {
+       "id": "fSkjB-jL4Qk",
+       "url": "https://www.youtube.com/watch?v=fSkjB-jL4Qk",
+       "date": "2026-11-20",
+       "views": 56,
+       "likes": 0,
+       "comments": null,
+       "rr": 0,
+       "pinned": false,
+       "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0"
+      },
+      {
+       "id": "vHR2S_tZ8z0",
+       "url": "https://www.youtube.com/watch?v=vHR2S_tZ8z0",
+       "date": "2026-11-20",
+       "views": 227,
+       "likes": 0,
+       "comments": null,
+       "rr": 0,
+       "pinned": false,
+       "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0"
+      },
+      {
+       "id": "kKzgKpx9nlI",
+       "url": "https://www.youtube.com/watch?v=kKzgKpx9nlI",
+       "date": "2026-11-19",
+       "views": 78,
+       "likes": 0,
+       "comments": null,
+       "rr": 0,
+       "pinned": false,
+       "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0"
+      },
+      {
+       "id": "lV-aOyB-g7Q",
+       "url": "https://www.youtube.com/watch?v=lV-aOyB-g7Q",
+       "date": "2026-11-19",
+       "views": 174,
+       "likes": 2,
+       "comments": null,
+       "rr": 11.5,
+       "pinned": false,
+       "note": "Video; YouTube showed \"View comments\" with no count; RR treats as 0"
+      },
+      {
+       "id": "WKufmhHY5bA",
+       "url": "https://www.youtube.com/watch?v=WKufmhHY5bA",
+       "date": "2026-11-19",
+       "views": 381,
+       "likes": 0,
+       "comments": null,
+       "rr": 0,
+       "pinned": false,
+       "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0"
+      },
+      {
+       "id": "YLA3iAvLp6k",
+       "url": "https://www.youtube.com/watch?v=YLA3iAvLp6k",
+       "date": "2026-11-18",
+       "views": 101,
+       "likes": 1,
+       "comments": null,
+       "rr": 9.9,
+       "pinned": false,
+       "note": "Short; YouTube showed \"View comments\" with no count; RR treats as 0"
+      },
+      {
+       "id": "cm7my9nSZEI",
+       "url": "https://www.youtube.com/watch?v=cm7my9nSZEI",
+       "date": "2026-11-18",
+       "views": 256,
+       "likes": 0,
+       "comments": null,
+       "rr": 0,
+       "pinned": false,
+       "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0"
+      },
+      {
+       "id": "q1CKB8ZfUB8",
+       "url": "https://www.youtube.com/watch?v=q1CKB8ZfUB8",
+       "date": "2026-11-17",
+       "views": 80,
+       "likes": 0,
+       "comments": null,
+       "rr": 0,
+       "pinned": false,
+       "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0"
+      },
+      {
+       "id": "hMQdPwFRybA",
+       "url": "https://www.youtube.com/watch?v=hMQdPwFRybA",
+       "date": "2026-11-17",
+       "views": 965,
+       "likes": 2,
+       "comments": null,
+       "rr": 2.1,
+       "pinned": false,
+       "note": "Short; YouTube showed \"View comments\" with no count; RR treats as 0"
+      },
+      {
+       "id": "Vw4wuOdSzr4",
+       "url": "https://www.youtube.com/watch?v=Vw4wuOdSzr4",
+       "date": "2026-11-16",
+       "views": 44,
+       "likes": 0,
+       "comments": null,
+       "rr": 0,
+       "pinned": false,
+       "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0"
+      },
+      {
+       "id": "c3eTC88bGC0",
+       "url": "https://www.youtube.com/watch?v=c3eTC88bGC0",
+       "date": "2026-11-16",
+       "views": 133,
+       "likes": 4,
+       "comments": null,
+       "rr": 30.1,
+       "pinned": false,
+       "note": "Video; YouTube showed \"View comments\" with no count; RR treats as 0"
+      }
+     ],
+     "sampled": 12,
+     "rr_posts": 12,
+     "median_views": 117.0,
+     "median_rr": 0.0,
+     "posts_per_week": 19.2,
+     "latest": "2026-11-20",
+     "hidden_likes": 0
+    }
+   ],
+   "not_scored": [
+    "TikTok thatcloudstudio not measured in this pass."
+   ],
+   "network": {
+    "csv_score": 61,
+    "csv_tier": "Ultimate",
+    "csv_subs": {
+     "views": 56,
+     "reach": 70,
+     "rr": 34,
+     "consistency": 100,
+     "coverage": 67
+    },
+    "total_followers": 12377,
+    "median_views": 463,
+    "median_rr": 20.1,
+    "posts_per_week": 54.2,
+    "platforms": 2,
+    "accounts": 3,
+    "sampled_posts": 33,
+    "rr_posts": 33,
+    "sub": {
+     "reach": 70,
+     "views": 56,
+     "rr": 34,
+     "consistency": 100,
+     "coverage": 67
+    },
+    "score": 61,
+    "tier": "Ultimate"
+   }
+  }
+ }
+}
