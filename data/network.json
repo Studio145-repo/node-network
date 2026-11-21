@@ -1,7 +1,7 @@
 {
  "capture_date": "2026-11-21",
  "capture_label": "Nov 21, 2026",
- "generated": "2026-11-21T12:48:46",
+ "generated": "2026-11-21T13:13:55",
  "order": [
   "gtv-mandem-tv",
   "clubchat",
@@ -3101,13 +3101,13 @@
      "coverage": 67
     },
     "total_followers": 14180,
-    "median_views": 457.0,
-    "median_rr": 21.7,
+    "median_views": 451,
+    "median_rr": 20.1,
     "posts_per_week": 59.2,
     "platforms": 2,
     "accounts": 5,
-    "sampled_posts": 56,
-    "rr_posts": 34,
+    "sampled_posts": 55,
+    "rr_posts": 33,
     "total_views": 70966,
     "views_posts": 33,
     "total_likes": 2567,
@@ -3123,7 +3123,7 @@
     "sub": {
      "reach": 72,
      "views": 55,
-     "rr": 36,
+     "rr": 34,
      "consistency": 100,
      "coverage": 67
     },
