@@ -1,7 +1,7 @@
 {
  "capture_date": "2026-11-21",
  "capture_label": "Nov 21, 2026",
- "generated": "2026-11-21T12:40:19",
+ "generated": "2026-11-21T12:48:46",
  "order": [
   "gtv-mandem-tv",
   "clubchat",
@@ -18,7 +18,8 @@
   "GTV TikTok @thegtvnetwork (4,778) counts for reach only. It is on their Linktree. No post sample.",
   "Collab reels hide likes: PodcastChicken 9 of 12, GTV 2, The Balaclavas 1.",
   "YouTube showed no comment count on 31 sampled videos. RR counts them as 0.",
-  "Shares, saves and watch time are not public for any account."
+  "Shares, saves and watch time are not public for any account.",
+  "Studio 145: @thatcloud2 and @thatreasoningshow show views on 1 of 23 scored posts. \"N days ago\" dates are left blank (Instagram rounds down)."
  ],
  "summary": {
   "partners": 5,
@@ -32,6 +33,7 @@
   "views_posts": 96,
   "likes_posts": 85,
   "shares_saves_public": false,
+  "shares_saves_posts": 0,
   "tiers": {
    "Mega": 0,
    "Ultimate": 1,
@@ -78,6 +80,7 @@
        "comments": 4,
        "rr": 30.8,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -91,6 +94,7 @@
        "comments": 4,
        "rr": 36.8,
        "pinned": false,
+       "duplicate": false,
        "note": "collab post led by @city2gritty",
        "shares": null,
        "saves": null
@@ -104,6 +108,7 @@
        "comments": 9,
        "rr": 33.6,
        "pinned": false,
+       "duplicate": false,
        "note": "collab post led by @city2gritty",
        "shares": null,
        "saves": null
@@ -117,6 +122,7 @@
        "comments": null,
        "rr": null,
        "pinned": false,
+       "duplicate": false,
        "note": "collab post led by @shlimeyr; likes and comments hidden on public page",
        "shares": null,
        "saves": null
@@ -130,6 +136,7 @@
        "comments": 4,
        "rr": 25.4,
        "pinned": false,
+       "duplicate": false,
        "note": "collab post led by @city2gritty",
        "shares": null,
        "saves": null
@@ -143,6 +150,7 @@
        "comments": 23,
        "rr": 36.1,
        "pinned": false,
+       "duplicate": false,
        "note": "collab post led by @city2gritty",
        "shares": null,
        "saves": null
@@ -156,6 +164,7 @@
        "comments": 2,
        "rr": 23.1,
        "pinned": false,
+       "duplicate": false,
        "note": "collab post led by @city2gritty",
        "shares": null,
        "saves": null
@@ -169,6 +178,7 @@
        "comments": 32,
        "rr": 56,
        "pinned": false,
+       "duplicate": false,
        "note": "collab post led by @realtmdworld",
        "shares": null,
        "saves": null
@@ -182,6 +192,7 @@
        "comments": 2,
        "rr": 25.7,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -195,6 +206,7 @@
        "comments": 14,
        "rr": 7.1,
        "pinned": false,
+       "duplicate": false,
        "note": "collab post led by @undergroundnationclips",
        "shares": null,
        "saves": null
@@ -208,6 +220,7 @@
        "comments": 26,
        "rr": 36.8,
        "pinned": false,
+       "duplicate": false,
        "note": "collab post led by @realtmdworld",
        "shares": null,
        "saves": null
@@ -221,6 +234,7 @@
        "comments": 0,
        "rr": 22.8,
        "pinned": false,
+       "duplicate": false,
        "note": "collab post led by @city2gritty",
        "shares": null,
        "saves": null
@@ -234,6 +248,7 @@
        "comments": null,
        "rr": null,
        "pinned": false,
+       "duplicate": false,
        "note": "collab post led by @shlimeyr; likes and comments hidden on public page",
        "shares": null,
        "saves": null
@@ -247,6 +262,7 @@
        "comments": 18,
        "rr": 49.6,
        "pinned": false,
+       "duplicate": false,
        "note": "collab post led by @realtmdworld",
        "shares": null,
        "saves": null
@@ -254,6 +270,7 @@
      ],
      "sampled": 14,
      "rr_posts": 12,
+     "dated_posts": 14,
      "median_views": 1907.5,
      "median_rr": 32.2,
      "posts_per_week": 91.0,
@@ -268,7 +285,9 @@
      "total_shares": null,
      "total_saves": null,
      "total_engagement": 1050,
-     "shares_saves_public": false
+     "shares_saves_public": false,
+     "shares_saves_posts": 0,
+     "unique_posts": 14
     },
     {
      "platform": "YouTube",
@@ -287,6 +306,7 @@
        "comments": 1,
        "rr": 58.8,
        "pinned": false,
+       "duplicate": false,
        "note": "Short",
        "shares": null,
        "saves": null
@@ -300,6 +320,7 @@
        "comments": 1,
        "rr": 111.1,
        "pinned": false,
+       "duplicate": false,
        "note": "Short",
        "shares": null,
        "saves": null
@@ -313,6 +334,7 @@
        "comments": 4,
        "rr": 70.2,
        "pinned": false,
+       "duplicate": false,
        "note": "Video",
        "shares": null,
        "saves": null
@@ -326,6 +348,7 @@
        "comments": 3,
        "rr": 171.4,
        "pinned": false,
+       "duplicate": false,
        "note": "Video",
        "shares": null,
        "saves": null
@@ -339,6 +362,7 @@
        "comments": 2,
        "rr": 155.6,
        "pinned": false,
+       "duplicate": false,
        "note": "Video",
        "shares": null,
        "saves": null
@@ -352,6 +376,7 @@
        "comments": 2,
        "rr": 78.4,
        "pinned": false,
+       "duplicate": false,
        "note": "Video",
        "shares": null,
        "saves": null
@@ -365,6 +390,7 @@
        "comments": 1,
        "rr": 86.2,
        "pinned": false,
+       "duplicate": false,
        "note": "Video",
        "shares": null,
        "saves": null
@@ -378,6 +404,7 @@
        "comments": 1,
        "rr": 200,
        "pinned": false,
+       "duplicate": false,
        "note": "Video",
        "shares": null,
        "saves": null
@@ -391,6 +418,7 @@
        "comments": 1,
        "rr": 29.1,
        "pinned": false,
+       "duplicate": false,
        "note": "Short",
        "shares": null,
        "saves": null
@@ -404,6 +432,7 @@
        "comments": 6,
        "rr": 43.9,
        "pinned": false,
+       "duplicate": false,
        "note": "Short",
        "shares": null,
        "saves": null
@@ -417,6 +446,7 @@
        "comments": null,
        "rr": 11.9,
        "pinned": false,
+       "duplicate": false,
        "note": "Short; YouTube showed \"View comments\" with no count; RR treats as 0",
        "shares": null,
        "saves": null
@@ -430,6 +460,7 @@
        "comments": null,
        "rr": 4,
        "pinned": false,
+       "duplicate": false,
        "note": "Short; YouTube showed \"View comments\" with no count; RR treats as 0",
        "shares": null,
        "saves": null
@@ -437,6 +468,7 @@
      ],
      "sampled": 12,
      "rr_posts": 12,
+     "dated_posts": 12,
      "median_views": 102.0,
      "median_rr": 74.3,
      "posts_per_week": 38.5,
@@ -451,7 +483,9 @@
      "total_shares": null,
      "total_saves": null,
      "total_engagement": 64,
-     "shares_saves_public": false
+     "shares_saves_public": false,
+     "shares_saves_posts": 0,
+     "unique_posts": 12
     },
     {
      "platform": "TikTok",
@@ -463,6 +497,7 @@
      "posts": [],
      "sampled": 0,
      "rr_posts": 0,
+     "dated_posts": 0,
      "median_views": null,
      "median_rr": null,
      "posts_per_week": null,
@@ -477,7 +512,9 @@
      "total_shares": null,
      "total_saves": null,
      "total_engagement": null,
-     "shares_saves_public": false
+     "shares_saves_public": false,
+     "shares_saves_posts": 0,
+     "unique_posts": 0
     }
    ],
    "not_scored": [
@@ -512,6 +549,8 @@
     "total_saves": null,
     "total_engagement": 1114,
     "shares_saves_public": false,
+    "shares_saves_posts": 0,
+    "unique_posts": 26,
     "sub": {
      "reach": 79,
      "views": 64,
@@ -520,7 +559,8 @@
      "coverage": 100
     },
     "score": 76,
-    "tier": "Ultimate"
+    "tier": "Ultimate",
+    "extra_accounts": false
    }
   },
   "clubchat": {
@@ -554,6 +594,7 @@
        "comments": 32,
        "rr": 30.4,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -567,6 +608,7 @@
        "comments": 4,
        "rr": 16.6,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -580,6 +622,7 @@
        "comments": 110,
        "rr": 53.4,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -593,6 +636,7 @@
        "comments": 1,
        "rr": 32.2,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -606,6 +650,7 @@
        "comments": 21,
        "rr": 42,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -619,6 +664,7 @@
        "comments": 12,
        "rr": 39.5,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -632,6 +678,7 @@
        "comments": 20,
        "rr": 47.5,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -645,6 +692,7 @@
        "comments": 13,
        "rr": 61.3,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -658,6 +706,7 @@
        "comments": 17,
        "rr": 47.6,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -671,6 +720,7 @@
        "comments": 46,
        "rr": 41.5,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -684,6 +734,7 @@
        "comments": 12,
        "rr": null,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -697,6 +748,7 @@
        "comments": 726,
        "rr": null,
        "pinned": true,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -710,6 +762,7 @@
        "comments": 781,
        "rr": null,
        "pinned": true,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -717,6 +770,7 @@
      ],
      "sampled": 11,
      "rr_posts": 10,
+     "dated_posts": 11,
      "median_views": 4676.0,
      "median_rr": 41.8,
      "posts_per_week": 3.3,
@@ -731,7 +785,9 @@
      "total_shares": null,
      "total_saves": null,
      "total_engagement": 1885,
-     "shares_saves_public": false
+     "shares_saves_public": false,
+     "shares_saves_posts": 0,
+     "unique_posts": 11
     },
     {
      "platform": "YouTube",
@@ -750,6 +806,7 @@
        "comments": 1,
        "rr": 25,
        "pinned": false,
+       "duplicate": false,
        "note": "Short",
        "shares": null,
        "saves": null
@@ -763,6 +820,7 @@
        "comments": null,
        "rr": 26,
        "pinned": false,
+       "duplicate": false,
        "note": "Short; YouTube showed \"View comments\" with no count; RR treats as 0",
        "shares": null,
        "saves": null
@@ -776,6 +834,7 @@
        "comments": null,
        "rr": 0,
        "pinned": false,
+       "duplicate": false,
        "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0",
        "shares": null,
        "saves": null
@@ -789,6 +848,7 @@
        "comments": null,
        "rr": 19.2,
        "pinned": false,
+       "duplicate": false,
        "note": "Short; YouTube showed \"View comments\" with no count; RR treats as 0",
        "shares": null,
        "saves": null
@@ -802,6 +862,7 @@
        "comments": null,
        "rr": 20.4,
        "pinned": false,
+       "duplicate": false,
        "note": "Short; YouTube showed \"View comments\" with no count; RR treats as 0",
        "shares": null,
        "saves": null
@@ -815,6 +876,7 @@
        "comments": 4,
        "rr": 32.6,
        "pinned": false,
+       "duplicate": false,
        "note": "Short",
        "shares": null,
        "saves": null
@@ -828,6 +890,7 @@
        "comments": null,
        "rr": 5.7,
        "pinned": false,
+       "duplicate": false,
        "note": "Short; YouTube showed \"View comments\" with no count; RR treats as 0",
        "shares": null,
        "saves": null
@@ -841,6 +904,7 @@
        "comments": null,
        "rr": 0,
        "pinned": false,
+       "duplicate": false,
        "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0",
        "shares": null,
        "saves": null
@@ -854,6 +918,7 @@
        "comments": 2,
        "rr": 10.6,
        "pinned": false,
+       "duplicate": false,
        "note": "Short",
        "shares": null,
        "saves": null
@@ -867,6 +932,7 @@
        "comments": 1,
        "rr": 30.8,
        "pinned": false,
+       "duplicate": false,
        "note": "Short",
        "shares": null,
        "saves": null
@@ -880,6 +946,7 @@
        "comments": 1,
        "rr": 18.7,
        "pinned": false,
+       "duplicate": false,
        "note": "Short",
        "shares": null,
        "saves": null
@@ -893,6 +960,7 @@
        "comments": null,
        "rr": 64.5,
        "pinned": false,
+       "duplicate": false,
        "note": "Short; YouTube showed \"View comments\" with no count; RR treats as 0",
        "shares": null,
        "saves": null
@@ -900,6 +968,7 @@
      ],
      "sampled": 12,
      "rr_posts": 12,
+     "dated_posts": 12,
      "median_views": 990.5,
      "median_rr": 19.8,
      "posts_per_week": 2.2,
@@ -914,7 +983,9 @@
      "total_shares": null,
      "total_saves": null,
      "total_engagement": 191,
-     "shares_saves_public": false
+     "shares_saves_public": false,
+     "shares_saves_posts": 0,
+     "unique_posts": 12
     }
    ],
    "not_scored": [
@@ -949,6 +1020,8 @@
     "total_saves": null,
     "total_engagement": 2076,
     "shares_saves_public": false,
+    "shares_saves_posts": 0,
+    "unique_posts": 23,
     "sub": {
      "reach": 56,
      "views": 71,
@@ -957,7 +1030,8 @@
      "coverage": 67
     },
     "score": 57,
-    "tier": "Champion"
+    "tier": "Champion",
+    "extra_accounts": false
    }
   },
   "podcastchicken": {
@@ -991,6 +1065,7 @@
        "comments": null,
        "rr": null,
        "pinned": false,
+       "duplicate": false,
        "note": "collab post led by @ixtoronto; likes and comments hidden on public page",
        "shares": null,
        "saves": null
@@ -1004,6 +1079,7 @@
        "comments": 87,
        "rr": 35.1,
        "pinned": false,
+       "duplicate": false,
        "note": "collab post led by @aimeeosunduba",
        "shares": null,
        "saves": null
@@ -1017,6 +1093,7 @@
        "comments": 1,
        "rr": 34.5,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -1030,6 +1107,7 @@
        "comments": null,
        "rr": null,
        "pinned": false,
+       "duplicate": false,
        "note": "collab post led by @ixtoronto; likes and comments hidden on public page",
        "shares": null,
        "saves": null
@@ -1043,6 +1121,7 @@
        "comments": null,
        "rr": null,
        "pinned": false,
+       "duplicate": false,
        "note": "collab post led by @ixtoronto; likes and comments hidden on public page",
        "shares": null,
        "saves": null
@@ -1056,6 +1135,7 @@
        "comments": 11,
        "rr": 29.3,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -1069,6 +1149,7 @@
        "comments": null,
        "rr": null,
        "pinned": false,
+       "duplicate": false,
        "note": "collab post led by @ixtoronto; likes and comments hidden on public page",
        "shares": null,
        "saves": null
@@ -1082,6 +1163,7 @@
        "comments": null,
        "rr": null,
        "pinned": false,
+       "duplicate": false,
        "note": "collab post led by @ixtoronto; likes and comments hidden on public page",
        "shares": null,
        "saves": null
@@ -1095,6 +1177,7 @@
        "comments": null,
        "rr": null,
        "pinned": false,
+       "duplicate": false,
        "note": "collab post led by @ixtoronto; likes and comments hidden on public page",
        "shares": null,
        "saves": null
@@ -1108,6 +1191,7 @@
        "comments": null,
        "rr": null,
        "pinned": false,
+       "duplicate": false,
        "note": "collab post led by @ixtoronto; likes and comments hidden on public page",
        "shares": null,
        "saves": null
@@ -1121,6 +1205,7 @@
        "comments": null,
        "rr": null,
        "pinned": false,
+       "duplicate": false,
        "note": "collab post led by @ixtoronto; likes and comments hidden on public page",
        "shares": null,
        "saves": null
@@ -1134,6 +1219,7 @@
        "comments": null,
        "rr": null,
        "pinned": false,
+       "duplicate": false,
        "note": "collab post led by @ixtoronto; likes and comments hidden on public page",
        "shares": null,
        "saves": null
@@ -1141,6 +1227,7 @@
      ],
      "sampled": 12,
      "rr_posts": 3,
+     "dated_posts": 12,
      "median_views": 5922.0,
      "median_rr": 34.5,
      "posts_per_week": 1.8,
@@ -1155,7 +1242,9 @@
      "total_shares": null,
      "total_saves": null,
      "total_engagement": 600,
-     "shares_saves_public": false
+     "shares_saves_public": false,
+     "shares_saves_posts": 0,
+     "unique_posts": 12
     }
    ],
    "not_scored": [
@@ -1191,6 +1280,8 @@
     "total_saves": null,
     "total_engagement": 600,
     "shares_saves_public": false,
+    "shares_saves_posts": 0,
+    "unique_posts": 12,
     "sub": {
      "reach": 33,
      "views": 92,
@@ -1199,7 +1290,8 @@
      "coverage": 33
     },
     "score": 51,
-    "tier": "Champion"
+    "tier": "Champion",
+    "extra_accounts": false
    }
   },
   "tloy": {
@@ -1240,6 +1332,7 @@
        "comments": null,
        "rr": 0,
        "pinned": false,
+       "duplicate": false,
        "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0",
        "shares": null,
        "saves": null
@@ -1253,6 +1346,7 @@
        "comments": null,
        "rr": 0,
        "pinned": false,
+       "duplicate": false,
        "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0",
        "shares": null,
        "saves": null
@@ -1266,6 +1360,7 @@
        "comments": null,
        "rr": 0,
        "pinned": false,
+       "duplicate": false,
        "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0",
        "shares": null,
        "saves": null
@@ -1279,6 +1374,7 @@
        "comments": null,
        "rr": 93.8,
        "pinned": false,
+       "duplicate": false,
        "note": "Video; YouTube showed \"View comments\" with no count; RR treats as 0",
        "shares": null,
        "saves": null
@@ -1292,6 +1388,7 @@
        "comments": null,
        "rr": 56.3,
        "pinned": false,
+       "duplicate": false,
        "note": "Video; YouTube showed \"View comments\" with no count; RR treats as 0",
        "shares": null,
        "saves": null
@@ -1305,6 +1402,7 @@
        "comments": null,
        "rr": 0,
        "pinned": false,
+       "duplicate": false,
        "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0",
        "shares": null,
        "saves": null
@@ -1318,6 +1416,7 @@
        "comments": null,
        "rr": 0,
        "pinned": false,
+       "duplicate": false,
        "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0",
        "shares": null,
        "saves": null
@@ -1331,6 +1430,7 @@
        "comments": 1,
        "rr": 71.4,
        "pinned": false,
+       "duplicate": false,
        "note": "Video",
        "shares": null,
        "saves": null
@@ -1344,6 +1444,7 @@
        "comments": 2,
        "rr": 30,
        "pinned": false,
+       "duplicate": false,
        "note": "Short; YouTube page shows no likes",
        "shares": null,
        "saves": null
@@ -1357,6 +1458,7 @@
        "comments": null,
        "rr": 0,
        "pinned": false,
+       "duplicate": false,
        "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0",
        "shares": null,
        "saves": null
@@ -1370,6 +1472,7 @@
        "comments": null,
        "rr": 0,
        "pinned": false,
+       "duplicate": false,
        "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0",
        "shares": null,
        "saves": null
@@ -1383,6 +1486,7 @@
        "comments": null,
        "rr": 0,
        "pinned": false,
+       "duplicate": false,
        "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0",
        "shares": null,
        "saves": null
@@ -1390,6 +1494,7 @@
      ],
      "sampled": 12,
      "rr_posts": 12,
+     "dated_posts": 12,
      "median_views": 138.5,
      "median_rr": 0.0,
      "posts_per_week": 5.9,
@@ -1404,7 +1509,9 @@
      "total_shares": null,
      "total_saves": null,
      "total_engagement": 11,
-     "shares_saves_public": false
+     "shares_saves_public": false,
+     "shares_saves_posts": 0,
+     "unique_posts": 12
     },
     {
      "platform": "TikTok",
@@ -1423,6 +1530,7 @@
        "comments": 0,
        "rr": 36.7,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -1436,6 +1544,7 @@
        "comments": 0,
        "rr": 22.1,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -1449,6 +1558,7 @@
        "comments": 1,
        "rr": 39.1,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -1462,6 +1572,7 @@
        "comments": 0,
        "rr": 40,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -1475,6 +1586,7 @@
        "comments": 1,
        "rr": 30.7,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -1488,6 +1600,7 @@
        "comments": 1,
        "rr": 31.1,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -1501,6 +1614,7 @@
        "comments": 7,
        "rr": 46.7,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -1514,6 +1628,7 @@
        "comments": 0,
        "rr": 13.2,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -1527,6 +1642,7 @@
        "comments": 0,
        "rr": 14.7,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -1540,6 +1656,7 @@
        "comments": 1,
        "rr": 54.2,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -1553,6 +1670,7 @@
        "comments": 270,
        "rr": null,
        "pinned": true,
+       "duplicate": false,
        "note": "pinned, excluded",
        "shares": null,
        "saves": null
@@ -1566,6 +1684,7 @@
        "comments": 56,
        "rr": null,
        "pinned": true,
+       "duplicate": false,
        "note": "pinned, excluded",
        "shares": null,
        "saves": null
@@ -1573,6 +1692,7 @@
      ],
      "sampled": 10,
      "rr_posts": 10,
+     "dated_posts": 10,
      "median_views": 233.5,
      "median_rr": 33.9,
      "posts_per_week": 5.2,
@@ -1587,7 +1707,9 @@
      "total_shares": null,
      "total_saves": null,
      "total_engagement": 115,
-     "shares_saves_public": false
+     "shares_saves_public": false,
+     "shares_saves_posts": 0,
+     "unique_posts": 10
     }
    ],
    "not_scored": [
@@ -1621,6 +1743,8 @@
     "total_saves": null,
     "total_engagement": 126,
     "shares_saves_public": false,
+    "shares_saves_posts": 0,
+    "unique_posts": 22,
     "sub": {
      "reach": 35,
      "views": 44,
@@ -1629,7 +1753,8 @@
      "coverage": 67
     },
     "score": 49,
-    "tier": "Champion"
+    "tier": "Champion",
+    "extra_accounts": false
    }
   },
   "the-balaclavas": {
@@ -1663,6 +1788,7 @@
        "comments": 0,
        "rr": 12.9,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -1676,6 +1802,7 @@
        "comments": 2,
        "rr": 38.6,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -1689,6 +1816,7 @@
        "comments": 1,
        "rr": 58.3,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -1702,6 +1830,7 @@
        "comments": 0,
        "rr": 20.4,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -1715,6 +1844,7 @@
        "comments": 0,
        "rr": 9.3,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -1728,6 +1858,7 @@
        "comments": 2,
        "rr": 34,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -1741,6 +1872,7 @@
        "comments": 0,
        "rr": 16.9,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -1754,6 +1886,7 @@
        "comments": 0,
        "rr": 23.8,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -1767,6 +1900,7 @@
        "comments": 0,
        "rr": 25.9,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -1780,6 +1914,7 @@
        "comments": 1,
        "rr": 37.9,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -1793,6 +1928,7 @@
        "comments": 2,
        "rr": 22.8,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -1806,6 +1942,7 @@
        "comments": 1,
        "rr": 25.5,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -1819,6 +1956,7 @@
        "comments": null,
        "rr": null,
        "pinned": false,
+       "duplicate": false,
        "note": "collab post led by @clubchatent; likes and comments hidden on public page",
        "shares": null,
        "saves": null
@@ -1832,6 +1970,7 @@
        "comments": 2,
        "rr": 39.1,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -1839,6 +1978,7 @@
      ],
      "sampled": 14,
      "rr_posts": 13,
+     "dated_posts": 14,
      "median_views": 626.0,
      "median_rr": 25.5,
      "posts_per_week": 0.0,
@@ -1853,7 +1993,9 @@
      "total_shares": null,
      "total_saves": null,
      "total_engagement": 215,
-     "shares_saves_public": false
+     "shares_saves_public": false,
+     "shares_saves_posts": 0,
+     "unique_posts": 14
     }
    ],
    "not_scored": [
@@ -1888,6 +2030,8 @@
     "total_saves": null,
     "total_engagement": 215,
     "shares_saves_public": false,
+    "shares_saves_posts": 0,
+    "unique_posts": 14,
     "sub": {
      "reach": 51,
      "views": 60,
@@ -1896,7 +2040,8 @@
      "coverage": 33
     },
     "score": 42,
-    "tier": "Champion"
+    "tier": "Champion",
+    "extra_accounts": false
    }
   },
   "studio-145": {
@@ -1906,7 +2051,7 @@
    "niche": "Our pages",
    "avatar": "assets/img/studio-145.jpg",
    "fixes": [],
-   "watch": "Same formula, our public pages.",
+   "watch": "Same formula, our public pages. @thatcloud2 and @thatreasoningshow come from a Hark export: views are not public on most posts, so they add reach and engagement but little to views and RR.",
    "pending": [],
    "accounts": [
     {
@@ -1926,6 +2071,7 @@
        "comments": 0,
        "rr": 166.7,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -1939,6 +2085,7 @@
        "comments": 0,
        "rr": 20.1,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -1952,6 +2099,7 @@
        "comments": 4,
        "rr": 38.2,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -1965,6 +2113,7 @@
        "comments": 0,
        "rr": 10.7,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -1978,6 +2127,7 @@
        "comments": 47,
        "rr": 39.3,
        "pinned": false,
+       "duplicate": false,
        "note": "collab post led by @thatstratusstudio",
        "shares": null,
        "saves": null
@@ -1991,6 +2141,7 @@
        "comments": 19,
        "rr": 28.9,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -2004,6 +2155,7 @@
        "comments": 4,
        "rr": 38.9,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -2017,6 +2169,7 @@
        "comments": 3,
        "rr": 13.2,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -2030,6 +2183,7 @@
        "comments": 3,
        "rr": 19.6,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -2043,6 +2197,7 @@
        "comments": 1215,
        "rr": null,
        "pinned": true,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -2056,6 +2211,7 @@
        "comments": 112,
        "rr": null,
        "pinned": true,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -2069,6 +2225,7 @@
        "comments": 513,
        "rr": null,
        "pinned": true,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -2076,6 +2233,7 @@
      ],
      "sampled": 9,
      "rr_posts": 9,
+     "dated_posts": 9,
      "median_views": 2737,
      "median_rr": 28.9,
      "posts_per_week": 9.3,
@@ -2090,7 +2248,9 @@
      "total_shares": null,
      "total_saves": null,
      "total_engagement": 1179,
-     "shares_saves_public": false
+     "shares_saves_public": false,
+     "shares_saves_posts": 0,
+     "unique_posts": 9
     },
     {
      "platform": "Instagram",
@@ -2109,6 +2269,7 @@
        "comments": 5,
        "rr": 31.8,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -2122,6 +2283,7 @@
        "comments": 8,
        "rr": 50.4,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -2135,6 +2297,7 @@
        "comments": 47,
        "rr": 39.3,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -2148,6 +2311,7 @@
        "comments": 5,
        "rr": 48.6,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -2161,6 +2325,7 @@
        "comments": 2,
        "rr": 23.3,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -2174,6 +2339,7 @@
        "comments": 3,
        "rr": 31,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -2187,6 +2353,7 @@
        "comments": 3,
        "rr": 40.9,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -2200,6 +2367,7 @@
        "comments": 0,
        "rr": 13.7,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -2213,6 +2381,7 @@
        "comments": 0,
        "rr": 11.7,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -2226,6 +2395,7 @@
        "comments": 0,
        "rr": 24.9,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -2239,6 +2409,7 @@
        "comments": 2,
        "rr": 47.7,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -2252,6 +2423,7 @@
        "comments": 2,
        "rr": 26.1,
        "pinned": false,
+       "duplicate": false,
        "note": null,
        "shares": null,
        "saves": null
@@ -2259,6 +2431,7 @@
      ],
      "sampled": 12,
      "rr_posts": 12,
+     "dated_posts": 12,
      "median_views": 2525.5,
      "median_rr": 31.4,
      "posts_per_week": 25.7,
@@ -2273,7 +2446,447 @@
      "total_shares": null,
      "total_saves": null,
      "total_engagement": 1738,
-     "shares_saves_public": false
+     "shares_saves_public": false,
+     "shares_saves_posts": 0,
+     "unique_posts": 12
+    },
+    {
+     "platform": "Instagram",
+     "handle": "@thatcloud2",
+     "status": "ours",
+     "followers": 905,
+     "followers_shown": "905",
+     "total_posts": 165,
+     "posts": [
+      {
+       "id": "Df-MrSNBGc7",
+       "url": "https://www.instagram.com/thatcloud2/reel/Df-MrSNBGc7/",
+       "date": "2026-11-21",
+       "views": null,
+       "likes": 34,
+       "comments": 0,
+       "rr": null,
+       "pinned": false,
+       "duplicate": false,
+       "note": "date shown as \"1 hour ago\"; on page: shares 4, reposts blank; views not public; not in views or RR",
+       "shares": null,
+       "saves": null
+      },
+      {
+       "id": "Df8TnjOtVB4",
+       "url": "https://www.instagram.com/thatcloud2/reel/Df8TnjOtVB4/",
+       "date": null,
+       "views": null,
+       "likes": 7,
+       "comments": 1,
+       "rr": null,
+       "pinned": false,
+       "duplicate": false,
+       "note": "date shown as \"1 day ago\"; on page: shares 1, reposts 5; views not public; not in views or RR",
+       "shares": null,
+       "saves": null
+      },
+      {
+       "id": "Df7_gtmh4p8",
+       "url": "https://www.instagram.com/thatcloud2/reel/Df7_gtmh4p8/",
+       "date": null,
+       "views": null,
+       "likes": 12,
+       "comments": 1,
+       "rr": null,
+       "pinned": false,
+       "duplicate": false,
+       "note": "date shown as \"1 day ago\"; on page: shares 8, reposts 3; views not public; not in views or RR",
+       "shares": null,
+       "saves": null
+      },
+      {
+       "id": "Df7qaRiDpf7",
+       "url": "https://www.instagram.com/thatstratusstudio/reel/Df7qaRiDpf7/",
+       "date": null,
+       "views": null,
+       "likes": 692,
+       "comments": 47,
+       "rr": null,
+       "pinned": false,
+       "duplicate": true,
+       "note": "already counted under @thatcloudstudio; collab owned by @thatstratusstudio (+3 incl. @thatcloud2); date shown as \"1 day ago\"; on page: shares 789, reposts 31; views not public; not in views or RR",
+       "shares": null,
+       "saves": null
+      },
+      {
+       "id": "Df7mMG4hDry",
+       "url": "https://www.instagram.com/thatcloud2/reel/Df7mMG4hDry/",
+       "date": null,
+       "views": null,
+       "likes": 2,
+       "comments": 0,
+       "rr": null,
+       "pinned": false,
+       "duplicate": false,
+       "note": "date shown as \"2 days ago\"; on page: shares blank, reposts 2; views not public; not in views or RR",
+       "shares": null,
+       "saves": null
+      },
+      {
+       "id": "Df50ywqtM3G",
+       "url": "https://www.instagram.com/thatcloud2/reel/Df50ywqtM3G/",
+       "date": null,
+       "views": null,
+       "likes": 9,
+       "comments": 0,
+       "rr": null,
+       "pinned": false,
+       "duplicate": false,
+       "note": "date shown as \"2 days ago\"; on page: shares blank, reposts 2; views not public; not in views or RR",
+       "shares": null,
+       "saves": null
+      },
+      {
+       "id": "Df5d9t6hVKx",
+       "url": "https://www.instagram.com/thatcloud2/reel/Df5d9t6hVKx/",
+       "date": null,
+       "views": null,
+       "likes": 15,
+       "comments": 0,
+       "rr": null,
+       "pinned": false,
+       "duplicate": false,
+       "note": "date shown as \"2 days ago\"; on page: shares 1, reposts 4; views not public; not in views or RR",
+       "shares": null,
+       "saves": null
+      },
+      {
+       "id": "Df5Lvoxhv0F",
+       "url": "https://www.instagram.com/thatcloud2/reel/Df5Lvoxhv0F/",
+       "date": null,
+       "views": null,
+       "likes": 12,
+       "comments": 4,
+       "rr": null,
+       "pinned": false,
+       "duplicate": false,
+       "note": "date shown as \"2 days ago\"; on page: shares blank, reposts 3; views not public; not in views or RR",
+       "shares": null,
+       "saves": null
+      },
+      {
+       "id": "Df2wJDrhmLQ",
+       "url": "https://www.instagram.com/thatcloud2/reel/Df2wJDrhmLQ/",
+       "date": null,
+       "views": null,
+       "likes": 128,
+       "comments": 4,
+       "rr": null,
+       "pinned": false,
+       "duplicate": false,
+       "note": "date shown as \"3 days ago\"; on page: shares 27, reposts 12; views not public; not in views or RR",
+       "shares": null,
+       "saves": null
+      },
+      {
+       "id": "Df2hECIB5ac",
+       "url": "https://www.instagram.com/thatcloud2/reel/Df2hECIB5ac/",
+       "date": null,
+       "views": null,
+       "likes": 4,
+       "comments": 0,
+       "rr": null,
+       "pinned": false,
+       "duplicate": false,
+       "note": "date shown as \"3 days ago\"; on page: shares blank, reposts 1; views not public; not in views or RR",
+       "shares": null,
+       "saves": null
+      },
+      {
+       "id": "Df2MQJdBm1T",
+       "url": "https://www.instagram.com/thatcloud2/reel/Df2MQJdBm1T/",
+       "date": null,
+       "views": null,
+       "likes": 7,
+       "comments": 1,
+       "rr": null,
+       "pinned": false,
+       "duplicate": false,
+       "note": "date shown as \"4 days ago\"; on page: shares blank, reposts 2; views not public; not in views or RR",
+       "shares": null,
+       "saves": null
+      },
+      {
+       "id": "Df0k0LQNGbv",
+       "url": "https://www.instagram.com/thatcloud2/reel/Df0k0LQNGbv/",
+       "date": null,
+       "views": null,
+       "likes": 6,
+       "comments": 0,
+       "rr": null,
+       "pinned": false,
+       "duplicate": false,
+       "note": "date shown as \"4 days ago\"; on page: shares blank, reposts 3; views not public; not in views or RR",
+       "shares": null,
+       "saves": null
+      }
+     ],
+     "sampled": 11,
+     "rr_posts": 0,
+     "dated_posts": 1,
+     "median_views": null,
+     "median_rr": null,
+     "posts_per_week": null,
+     "latest": "2026-11-21",
+     "hidden_likes": 0,
+     "total_views": null,
+     "views_posts": 0,
+     "total_likes": 236,
+     "likes_posts": 11,
+     "total_comments": 11,
+     "comments_posts": 11,
+     "total_shares": null,
+     "total_saves": null,
+     "total_engagement": 247,
+     "shares_saves_public": false,
+     "shares_saves_posts": 0,
+     "unique_posts": 11
+    },
+    {
+     "platform": "Instagram",
+     "handle": "@thatreasoningshow",
+     "status": "ours",
+     "followers": 898,
+     "followers_shown": "898",
+     "total_posts": 190,
+     "posts": [
+      {
+       "id": "DfkEHBPRAtE",
+       "url": "https://www.instagram.com/thatreasoningshow/reel/DfkEHBPRAtE/",
+       "date": "2026-11-10",
+       "views": null,
+       "likes": 36,
+       "comments": 9,
+       "rr": null,
+       "pinned": false,
+       "duplicate": false,
+       "note": "on page: shares 5, reposts 4; views not public; not in views or RR",
+       "shares": null,
+       "saves": null
+      },
+      {
+       "id": "DfiWyuExfFy",
+       "url": "https://www.instagram.com/thatreasoningshow/reel/DfiWyuExfFy/",
+       "date": "2026-11-10",
+       "views": null,
+       "likes": 22,
+       "comments": 1,
+       "rr": null,
+       "pinned": false,
+       "duplicate": false,
+       "note": "on page: shares 5, reposts 3; views not public; not in views or RR",
+       "shares": null,
+       "saves": null
+      },
+      {
+       "id": "DfhcWdXRi5c",
+       "url": "https://www.instagram.com/thatreasoningshow/reel/DfhcWdXRi5c/",
+       "date": "2026-11-09",
+       "views": null,
+       "likes": 10,
+       "comments": 0,
+       "rr": null,
+       "pinned": false,
+       "duplicate": false,
+       "note": "on page: shares 2, reposts 1; views not public; not in views or RR",
+       "shares": null,
+       "saves": null
+      },
+      {
+       "id": "DfVrAB6xa5h",
+       "url": "https://www.instagram.com/thatreasoningshow/reel/DfVrAB6xa5h/",
+       "date": "2026-11-05",
+       "views": null,
+       "likes": 19,
+       "comments": 0,
+       "rr": null,
+       "pinned": false,
+       "duplicate": false,
+       "note": "on page: shares 2, reposts 4; views not public; not in views or RR",
+       "shares": null,
+       "saves": null
+      },
+      {
+       "id": "DfUgumExo5j",
+       "url": "https://www.instagram.com/thatreasoningshow/reel/DfUgumExo5j/",
+       "date": "2026-11-04",
+       "views": null,
+       "likes": 68,
+       "comments": 8,
+       "rr": null,
+       "pinned": false,
+       "duplicate": false,
+       "note": "on page: shares 8, reposts 8; views not public; not in views or RR",
+       "shares": null,
+       "saves": null
+      },
+      {
+       "id": "DfR3-EMR7UO",
+       "url": "https://www.instagram.com/thatreasoningshow/reel/DfR3-EMR7UO/",
+       "date": "2026-11-03",
+       "views": null,
+       "likes": 27,
+       "comments": 2,
+       "rr": null,
+       "pinned": false,
+       "duplicate": false,
+       "note": "on page: shares 7, reposts 4; views not public; not in views or RR",
+       "shares": null,
+       "saves": null
+      },
+      {
+       "id": "DdW3VQLRSd4",
+       "url": "https://www.instagram.com/thatreasoningshow/reel/DdW3VQLRSd4/",
+       "date": "2026-09-16",
+       "views": null,
+       "likes": 2600,
+       "comments": 78,
+       "rr": null,
+       "pinned": true,
+       "duplicate": false,
+       "note": "collab; likes shown as 2.6K; on page: shares 982, reposts 244; views not public; not in views or RR",
+       "shares": null,
+       "saves": null
+      },
+      {
+       "id": "DbtJnq2xyKB",
+       "url": "https://www.instagram.com/thatreasoningshow/reel/DbtJnq2xyKB/",
+       "date": "2026-08-06",
+       "views": null,
+       "likes": 8500,
+       "comments": 707,
+       "rr": null,
+       "pinned": true,
+       "duplicate": false,
+       "note": "collab; likes shown as 8.5K; on page: shares 4K, reposts 406; views not public; not in views or RR",
+       "shares": null,
+       "saves": null
+      },
+      {
+       "id": "DbjsxW8R_6d",
+       "url": "https://www.instagram.com/thatreasoningshow/reel/DbjsxW8R_6d/",
+       "date": "2026-08-04",
+       "views": null,
+       "likes": 2200,
+       "comments": 83,
+       "rr": null,
+       "pinned": true,
+       "duplicate": false,
+       "note": "collab; likes shown as 2.2K; on page: shares 720, reposts 46; views not public; not in views or RR",
+       "shares": null,
+       "saves": null
+      },
+      {
+       "id": "Df2EsSoxQcu",
+       "url": "https://www.instagram.com/thatreasoningshow/reel/Df2EsSoxQcu/",
+       "date": null,
+       "views": null,
+       "likes": 16,
+       "comments": 5,
+       "rr": null,
+       "pinned": false,
+       "duplicate": false,
+       "note": "date shown as \"3 days ago\"; on page: shares blank, reposts 7; views not public; not in views or RR",
+       "shares": null,
+       "saves": null
+      },
+      {
+       "id": "Df3LvbMidJH",
+       "url": "https://www.instagram.com/thatreasoningshow/reel/Df3LvbMidJH/",
+       "date": null,
+       "views": null,
+       "likes": 5,
+       "comments": 0,
+       "rr": null,
+       "pinned": false,
+       "duplicate": false,
+       "note": "date shown as \"3 days ago\"; on page: shares blank, reposts 2; views not public; not in views or RR",
+       "shares": null,
+       "saves": null
+      },
+      {
+       "id": "Df27KTqj2ei",
+       "url": "https://www.instagram.com/thatreasoningshow/reel/Df27KTqj2ei/",
+       "date": null,
+       "views": null,
+       "likes": 4,
+       "comments": 1,
+       "rr": null,
+       "pinned": false,
+       "duplicate": false,
+       "note": "date shown as \"3 days ago\"; on page: shares blank, reposts 1; views not public; not in views or RR",
+       "shares": null,
+       "saves": null
+      },
+      {
+       "id": "Df1Ib5Hx3Dd",
+       "url": "https://www.instagram.com/thatreasoningshow/reel/Df1Ib5Hx3Dd/",
+       "date": null,
+       "views": null,
+       "likes": 15,
+       "comments": 0,
+       "rr": null,
+       "pinned": false,
+       "duplicate": false,
+       "note": "date shown as \"4 days ago\"; on page: shares 2, reposts 1; views not public; not in views or RR",
+       "shares": null,
+       "saves": null
+      },
+      {
+       "id": "Df0faRFDno9",
+       "url": "https://www.instagram.com/thatreasoningshow/reel/Df0faRFDno9/",
+       "date": null,
+       "views": null,
+       "likes": 13,
+       "comments": 0,
+       "rr": null,
+       "pinned": false,
+       "duplicate": false,
+       "note": "date shown as \"4 days ago\"; on page: shares blank, reposts 6; views not public; not in views or RR",
+       "shares": null,
+       "saves": null
+      },
+      {
+       "id": "Df0UFwjjvkF",
+       "url": "https://www.instagram.com/thatnimbusstudio/reel/Df0UFwjjvkF/",
+       "date": null,
+       "views": 451,
+       "likes": 12,
+       "comments": 0,
+       "rr": 26.6,
+       "pinned": false,
+       "duplicate": false,
+       "note": "collab owned by @thatnimbusstudio; Insights read via Nimbus (no reach figure shown; accounts engaged 15); date shown as \"4 days ago\"; on page: shares 2, reposts 3",
+       "shares": 2,
+       "saves": 1
+      }
+     ],
+     "sampled": 12,
+     "rr_posts": 1,
+     "dated_posts": 6,
+     "median_views": 451,
+     "median_rr": 26.6,
+     "posts_per_week": 5.0,
+     "latest": "2026-11-10",
+     "hidden_likes": 0,
+     "total_views": 451,
+     "views_posts": 1,
+     "total_likes": 247,
+     "likes_posts": 12,
+     "total_comments": 26,
+     "comments_posts": 12,
+     "total_shares": 2,
+     "total_saves": 1,
+     "total_engagement": 276,
+     "shares_saves_public": true,
+     "shares_saves_posts": 1,
+     "unique_posts": 12
     },
     {
      "platform": "YouTube",
@@ -2292,6 +2905,7 @@
        "comments": null,
        "rr": 0,
        "pinned": false,
+       "duplicate": false,
        "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0",
        "shares": null,
        "saves": null
@@ -2305,6 +2919,7 @@
        "comments": null,
        "rr": 0,
        "pinned": false,
+       "duplicate": false,
        "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0",
        "shares": null,
        "saves": null
@@ -2318,6 +2933,7 @@
        "comments": null,
        "rr": 0,
        "pinned": false,
+       "duplicate": false,
        "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0",
        "shares": null,
        "saves": null
@@ -2331,6 +2947,7 @@
        "comments": null,
        "rr": 0,
        "pinned": false,
+       "duplicate": false,
        "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0",
        "shares": null,
        "saves": null
@@ -2344,6 +2961,7 @@
        "comments": null,
        "rr": 11.5,
        "pinned": false,
+       "duplicate": false,
        "note": "Video; YouTube showed \"View comments\" with no count; RR treats as 0",
        "shares": null,
        "saves": null
@@ -2357,6 +2975,7 @@
        "comments": null,
        "rr": 0,
        "pinned": false,
+       "duplicate": false,
        "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0",
        "shares": null,
        "saves": null
@@ -2370,6 +2989,7 @@
        "comments": null,
        "rr": 9.9,
        "pinned": false,
+       "duplicate": false,
        "note": "Short; YouTube showed \"View comments\" with no count; RR treats as 0",
        "shares": null,
        "saves": null
@@ -2383,6 +3003,7 @@
        "comments": null,
        "rr": 0,
        "pinned": false,
+       "duplicate": false,
        "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0",
        "shares": null,
        "saves": null
@@ -2396,6 +3017,7 @@
        "comments": null,
        "rr": 0,
        "pinned": false,
+       "duplicate": false,
        "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0",
        "shares": null,
        "saves": null
@@ -2409,6 +3031,7 @@
        "comments": null,
        "rr": 2.1,
        "pinned": false,
+       "duplicate": false,
        "note": "Short; YouTube showed \"View comments\" with no count; RR treats as 0",
        "shares": null,
        "saves": null
@@ -2422,6 +3045,7 @@
        "comments": null,
        "rr": 0,
        "pinned": false,
+       "duplicate": false,
        "note": "Short; YouTube page shows no likes; YouTube showed \"View comments\" with no count; RR treats as 0",
        "shares": null,
        "saves": null
@@ -2435,6 +3059,7 @@
        "comments": null,
        "rr": 30.1,
        "pinned": false,
+       "duplicate": false,
        "note": "Video; YouTube showed \"View comments\" with no count; RR treats as 0",
        "shares": null,
        "saves": null
@@ -2442,6 +3067,7 @@
      ],
      "sampled": 12,
      "rr_posts": 12,
+     "dated_posts": 12,
      "median_views": 117.0,
      "median_rr": 0.0,
      "posts_per_week": 19.2,
@@ -2456,7 +3082,9 @@
      "total_shares": null,
      "total_saves": null,
      "total_engagement": 9,
-     "shares_saves_public": false
+     "shares_saves_public": false,
+     "shares_saves_posts": 0,
+     "unique_posts": 12
     }
    ],
    "not_scored": [
@@ -2472,33 +3100,36 @@
      "consistency": 100,
      "coverage": 67
     },
-    "total_followers": 12377,
-    "median_views": 463,
-    "median_rr": 20.1,
-    "posts_per_week": 54.2,
+    "total_followers": 14180,
+    "median_views": 457.0,
+    "median_rr": 21.7,
+    "posts_per_week": 59.2,
     "platforms": 2,
-    "accounts": 3,
-    "sampled_posts": 33,
-    "rr_posts": 33,
-    "total_views": 91515,
+    "accounts": 5,
+    "sampled_posts": 56,
+    "rr_posts": 34,
+    "total_views": 70966,
     "views_posts": 33,
-    "total_likes": 2769,
-    "likes_posts": 33,
-    "total_comments": 157,
-    "comments_posts": 21,
-    "total_shares": null,
-    "total_saves": null,
-    "total_engagement": 2926,
-    "shares_saves_public": false,
+    "total_likes": 2567,
+    "likes_posts": 55,
+    "total_comments": 147,
+    "comments_posts": 43,
+    "total_shares": 2,
+    "total_saves": 1,
+    "total_engagement": 2717,
+    "shares_saves_public": true,
+    "shares_saves_posts": 1,
+    "unique_posts": 55,
     "sub": {
-     "reach": 70,
-     "views": 56,
-     "rr": 34,
+     "reach": 72,
+     "views": 55,
+     "rr": 36,
      "consistency": 100,
      "coverage": 67
     },
-    "score": 61,
-    "tier": "Ultimate"
+    "score": 62,
+    "tier": "Ultimate",
+    "extra_accounts": true
    }
   }
  }

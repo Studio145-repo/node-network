@@ -31,7 +31,8 @@
       label + '</div>' + (small ? '<div class="bs">' + small + '</div>' : '') + '</div>';
   };
   S.engLabel = function (x) {
-    return x.shares_saves_public ? 'likes + comments + shares + saves' : 'likes + comments; shares/saves not public yet';
+    if (!x.shares_saves_posts) return 'likes + comments; shares/saves not public yet';
+    return 'likes + comments; shares/saves only where Insights were read (' + x.shares_saves_posts + ' post' + (x.shares_saves_posts === 1 ? '' : 's') + ')';
   };
   S.TIERC = { Rookie: '#8fa3c7', Champion: '#3fb6ff', Ultimate: '#e86a10', Mega: '#ffd23f' };
   S.PC = { Instagram: '#e86a10', YouTube: '#3fb6ff', TikTok: '#ffd23f' };

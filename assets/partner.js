@@ -24,8 +24,8 @@
   function postTable(a) {
     if (!a.posts.length) return '<div class="mline">No post sample for this account.</div>';
     var rows = a.posts.map(function (p) {
-      return '<tr class="' + (p.pinned ? 'pin' : '') + '"><td>' + S.date(p.date) + '</td><td class="r">' + S.f(p.views) + '</td><td class="r">' + S.f(p.likes) +
-        '</td><td class="r">' + S.f(p.comments) + '</td><td class="r">' + S.f(p.rr, 1) + '</td><td><small>' + (p.pinned ? 'Pinned, not scored. ' : '') +
+      return '<tr class="' + (p.pinned || p.duplicate ? 'pin' : '') + '"><td>' + S.date(p.date) + '</td><td class="r">' + S.f(p.views) + '</td><td class="r">' + S.f(p.likes) +
+        '</td><td class="r">' + S.f(p.comments) + '</td><td class="r">' + S.f(p.rr, 1) + '</td><td><small>' + (p.pinned ? 'Pinned, not scored. ' : '') + (p.duplicate ? 'Not scored again. ' : '') +
         S.esc((p.note || '').replace(/; ?pinned, excluded|pinned, excluded/, '')) + '</small></td><td>' +
         (p.url ? '<a href="' + S.esc(p.url) + '" target="_blank" rel="noopener noreferrer">open</a>' : S.na()) + '</td></tr>';
     }).join('');
@@ -61,7 +61,7 @@
     var banners = '<div class="banners three">' +
       S.banner('TOTAL VIEWS', S.ICON.views, S.full(n.total_views), 'total views, recent sampled posts', n.views_posts + ' scored posts, all pages. Pinned posts left out.') +
       S.banner('TOTAL REACH', S.ICON.reach, S.full(n.total_followers), 'reach (followers, until API data)', 'Followers summed across ' + n.accounts + ' page' + (n.accounts === 1 ? '' : 's') + '.') +
-      S.banner('TOTAL ENGAGEMENT', S.ICON_ENG, S.full(n.total_engagement), S.engLabel(n), S.full(n.total_likes) + ' likes + ' + S.full(n.total_comments) + ' comments. Hidden counts left out.') + '</div>';
+      S.banner('TOTAL ENGAGEMENT', S.ICON_ENG, S.full(n.total_engagement), S.engLabel(n), S.full(n.total_likes) + ' likes + ' + S.full(n.total_comments) + ' comments' + (n.shares_saves_posts ? ' + ' + S.full(n.total_shares) + ' shares + ' + S.full(n.total_saves) + ' saves' : '') + '. Hidden counts left out. Collabs on two pages count once.') + '</div>';
     var glance = '<div class="glance small five">' + g(S.f(n.median_views), 'median views per post') +
       g(S.f(n.median_rr, 1), 'median Public RR') + g(n.posts_per_week.toFixed(1), 'posts per week, all pages') +
       g(n.platforms + '/3', 'platforms covered') + g(n.sampled_posts, 'recent posts scored') + '</div>';

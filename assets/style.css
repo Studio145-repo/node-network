@@ -124,3 +124,4 @@ table.st{width:100%;border-collapse:collapse;font-size:12px}
 .glance.five{grid-template-columns:repeat(5,1fr)}
 @media (max-width:1000px){.banners.three{grid-template-columns:1fr 1fr}.glance.five{grid-template-columns:repeat(3,1fr)}}
 @media (max-width:640px){.banners,.banners.three{grid-template-columns:1fr}.banner .bv{font-size:36px}.glance.five{grid-template-columns:1fr 1fr}}
+.st td:first-child{white-space:nowrap}
