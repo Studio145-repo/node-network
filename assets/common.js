@@ -65,11 +65,86 @@
   };
   S.foot = function (d) {
     return '<div class="foot"><span>Public data captured ' + S.esc(d.capture_label) +
-      '. Public RR is a proxy, not comparable to internal IG-RR.</span><span>Studio 145 \u00b7 internal only</span></div>';
+      '. Public RR is a proxy, not comparable to internal IG-RR.' + (d.ig ? ' Raw Instagram counts for @thatcloudstudio and @thatreasoningshow: ' + S.esc(d.ig.source) + '.' : '') + '</span><span>Studio 145 \u00b7 internal only</span></div>';
   };
+  /* Instagram API overlay (Dex, Nov 23 2026): for @thatcloudstudio and @thatreasoningshow the Instagram API
+     is the source of record for raw counts. Scores, medians, Public RR and weights are NOT recomputed;
+     they stay on the Nov 21 public capture until Dex approves a change. The replaced capture values are kept
+     in _trk and shown as "Tracker, superseded by API". A blank API value never replaces anything and is never 0. */
+  function totals(posts) {
+    var u = {}, list = [];
+    posts.forEach(function (x) { var k = x.id || Math.random(); if (!(k in u)) { u[k] = 1; list.push(x); } });
+    function ts(k) { var v = list.filter(function (x) { return x[k] !== null && x[k] !== undefined; }); return [v.length ? v.reduce(function (s, x) { return s + x[k]; }, 0) : null, v.length]; }
+    var V = ts('views'), L = ts('likes'), C = ts('comments'), SH = ts('shares'), SV = ts('saves');
+    var parts = [L[0], C[0], SH[0], SV[0]].filter(function (v) { return v !== null; });
+    return { total_views: V[0], views_posts: V[1], total_likes: L[0], likes_posts: L[1], total_comments: C[0], comments_posts: C[1],
+      total_shares: SH[0], total_saves: SV[0], total_engagement: parts.length ? parts.reduce(function (a, b) { return a + b; }, 0) : null,
+      shares_saves_public: !!(SH[1] || SV[1]),
+      shares_saves_posts: list.filter(function (x) { return (x.shares !== null && x.shares !== undefined) || (x.saves !== null && x.saves !== undefined); }).length,
+      unique_posts: list.length };
+  }
+  var TK = ['total_views', 'views_posts', 'total_likes', 'total_comments', 'total_shares', 'total_saves', 'total_engagement', 'shares_saves_posts'];
+  S.applyIG = function (d, ig) {
+    if (!ig || !ig.accounts) return;
+    d.ig = ig;
+    Object.keys(d.partners).forEach(function (slug) {
+      var p = d.partners[slug], hit = false, allp = [];
+      p.accounts.forEach(function (a) {
+        var A = a.platform === 'Instagram' && ig.accounts[a.handle];
+        if (A) {
+          hit = true;
+          a._trk = { followers: a.followers, followers_shown: a.followers_shown, total_posts: a.total_posts };
+          TK.forEach(function (k) { a._trk[k] = a[k]; });
+          a._api = A;
+          if (A.followers !== null && A.followers !== undefined) { a.followers = A.followers; a.followers_shown = null; }
+          if (A.media_count !== null && A.media_count !== undefined) a.total_posts = A.media_count;
+          a.posts.forEach(function (x) {
+            var q = A.posts[x.id];
+            if (!q) return;
+            x._trk = { views: x.views, likes: x.likes, comments: x.comments, shares: x.shares, saves: x.saves, date: x.date };
+            x._api = q;
+            ['views', 'likes', 'comments', 'shares', 'saves'].forEach(function (k) { if (q[k] !== null && q[k] !== undefined) x[k] = q[k]; });
+          });
+          var sp = a.posts.filter(function (x) { return !x.pinned && !x.duplicate; });
+          var t = totals(sp);
+          TK.forEach(function (k) { a[k] = t[k]; });
+        }
+        allp = allp.concat(a.posts.filter(function (x) { return !x.pinned && !x.duplicate; }));
+      });
+      if (!hit) return;
+      var n = p.network;
+      n._trk = { total_followers: n.total_followers };
+      TK.forEach(function (k) { n._trk[k] = n[k]; });
+      var t = totals(allp);
+      TK.forEach(function (k) { n[k] = t[k]; });
+      n.total_followers = p.accounts.reduce(function (s, a) { return s + (a.followers || 0); }, 0);
+      n._api = true;
+    });
+  };
+  S.SUP = 'Tracker, superseded by API';
+  /* Account-level views for a period, straight from Instagram Insights. These are the numbers to compare
+     with the Instagram app; sampled-post totals are a different thing and are labelled as such. */
+  S.acctBanners = function (ig) {
+    if (!ig || !ig.accounts) return '';
+    var w = ig.window_30d, has30 = function (a) { return a.views_30d !== null && a.views_30d !== undefined; };
+    var hs = Object.keys(ig.accounts);
+    return '<div class="banners">' + hs.map(function (h) {
+      var a = ig.accounts[h], t = has30(a);
+      return S.banner(S.esc(h.toUpperCase()) + ' \u00b7 ' + (t ? 'LAST 30 DAYS' : 'LAST ' + ig.window_days + ' DAYS') + ' <b class="apitag">API</b>', S.ICON.views,
+        S.full(t ? a.views_30d : a.views_28d), S.esc(h) + ' ' + S.full(t ? a.views_30d : a.views_28d) + ' views (' + (t ? 'last 30 days' : 'last ' + ig.window_days + ' days') + ', Instagram API)',
+        'Reach ' + S.full(t ? a.reach_30d : a.reach_28d) + ' \u00b7 accounts engaged ' + S.full(t ? a.accounts_engaged_30d : a.accounts_engaged_28d) +
+        ' \u00b7 interactions ' + S.full(t ? a.interactions_30d : a.interactions_28d) +
+        (t ? '<br>28-day: ' + S.full(a.views_28d) + ' views \u00b7 reach ' + S.full(a.reach_28d) + ' \u00b7 engaged ' + S.full(a.accounts_engaged_28d) : ''));
+    }).join('') + '</div>' +
+      (w ? '<div class="apiline">Window: ' + S.esc(w.since) + ' \u2192 ' + S.esc(w.until) + ' ET (rolling 30 days; the Graph API allows at most 30 days). Instagram\u2019s app uses its own day boundaries, so its \u201clast 30 days\u201d can differ a little. ' + S.esc(ig.source) + '.</div>' : '');
+  };
+  S.sup = function (v) { return '<span class="sup" title="' + S.SUP + ' (Nov 21 public capture)">' + S.SUP + ': ' + v + '</span>'; };
   S.load = function (cb) {
+    var ig = fetch('data/ig_api.json', { cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; });
     fetch('data/network.json', { cache: 'no-store' })
       .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(function (d) { return ig.then(function (x) { S.applyIG(d, x); return d; }); })
       .then(cb)
       .catch(function (e) {
         document.getElementById('app').innerHTML = '<div class="err">Could not load data/network.json (' + S.esc(e.message) +

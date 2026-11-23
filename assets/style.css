@@ -125,3 +125,9 @@ table.st{width:100%;border-collapse:collapse;font-size:12px}
 @media (max-width:1000px){.banners.three{grid-template-columns:1fr 1fr}.glance.five{grid-template-columns:repeat(3,1fr)}}
 @media (max-width:640px){.banners,.banners.three{grid-template-columns:1fr}.banner .bv{font-size:36px}.glance.five{grid-template-columns:1fr 1fr}}
 .st td:first-child{white-space:nowrap}
+
+/* Instagram API overlay (Nov 23) */
+.apitag{display:inline-block;font-size:9px;letter-spacing:.08em;padding:1px 5px;border-radius:4px;background:#e86a10;color:#0a1236;font-weight:700;vertical-align:middle}
+.sup{display:inline-block;color:#8fa3c7;font-size:11px;opacity:.85}
+.was{color:#6f86b8;font-size:9px}
+.apiline{font-size:11px;color:#8fb0e8;margin:6px 0 8px}

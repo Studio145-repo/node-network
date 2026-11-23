@@ -26,10 +26,11 @@
   S.load(function (d) {
     var sm = d.summary, lead = d.order[0];
     var tiers = Object.keys(sm.tiers).filter(function (t) { return sm.tiers[t]; });
-    var banners = '<div class="banners">' +
-      S.banner('NETWORK TOTAL VIEWS', S.ICON.views, S.full(sm.total_views), 'total views, recent sampled posts',
+    var acct = d.ig ? '<div class="section">STUDIO 145 ACCOUNT VIEWS (INSTAGRAM API)</div>' + S.acctBanners(d.ig) + '<div class="section">PARTNER NETWORK \u00b7 SAMPLED POSTS</div>' : '';
+    var banners = acct + '<div class="banners">' +
+      S.banner('PARTNERS \u00b7 SAMPLED POSTS TOTAL (' + sm.views_posts + ' POSTS)', S.ICON.views, S.full(sm.total_views), 'sum of views on recent sampled posts only (Nov 21 public capture), not account views for a period',
         'All ' + sm.partners + ' partners. ' + sm.views_posts + ' scored posts. Pinned posts left out.') +
-      S.banner('NETWORK TOTAL ENGAGEMENT', S.ICON_ENG, S.full(sm.total_engagement), S.engLabel(sm),
+      S.banner('PARTNERS \u00b7 SAMPLED POSTS ENGAGEMENT', S.ICON_ENG, S.full(sm.total_engagement), S.engLabel(sm),
         S.full(sm.total_likes) + ' likes + ' + S.full(sm.total_comments) + ' comments, same posts. Hidden counts are left out, not read as 0.') + '</div>';
     var glance = '<div class="glance small"><div><b>' + S.f(sm.total_followers) + '</b><span>followers across ' + sm.partners + ' partners</span></div>' +
       '<div><b>' + sm.accounts + '</b><span>public accounts checked</span></div>' +
