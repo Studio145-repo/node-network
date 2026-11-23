@@ -52,11 +52,13 @@
       box(a.sampled ? String(a.sampled) : S.na(), 'SAMPLED') + box(S.f(a.median_views), a._api ? 'MED. VIEWS (NOV 21, SCORE INPUT)' : 'MED. VIEWS') + box(S.f(a.median_rr, 1), a._api ? 'PUBLIC RR (NOV 21, SCORE INPUT)' : 'PUBLIC RR') +
       box(a.posts_per_week === null ? S.na() : a.posts_per_week.toFixed(1), 'POSTS/WK') + box(a.latest ? S.date(a.latest).replace(/, \d{4}$/, '') : S.na(), 'LATEST') +
       box(a.sampled ? String(a.hidden_likes) : S.na(), 'LIKES HIDDEN') + '</div>' +
-      (a._api ? '<div class="astats">' + box(S.full(a._api.reach_28d), '28-DAY REACH (API)') + box(S.full(a._api.views_28d), '28-DAY VIEWS (API)') +
-        box(S.full(a._api.accounts_engaged_28d), '28-DAY ACCTS ENGAGED (API)') + box(S.full(a._api.interactions_28d), '28-DAY INTERACTIONS (API)') +
-        box(S.full(a.total_views), 'SAMPLED VIEWS (API)') + box(S.full(a.total_engagement), 'SAMPLED ENGAGEMENT (API)') + '</div>' +
+      (a._api ? (function (A) { var t = A.views_30d !== null && A.views_30d !== undefined, L = t ? 'LAST 30 DAYS' : '28-DAY';
+        return '<div class="astats">' + box(S.full(t ? A.views_30d : A.views_28d), 'ACCOUNT VIEWS, ' + L + ' (API)') + box(S.full(t ? A.reach_30d : A.reach_28d), 'REACH, ' + L + ' (API)') +
+        box(S.full(t ? A.accounts_engaged_30d : A.accounts_engaged_28d), 'ACCTS ENGAGED, ' + L + ' (API)') + box(S.full(t ? A.interactions_30d : A.interactions_28d), 'INTERACTIONS, ' + L + ' (API)') +
+        box(S.full(a.total_views), 'SAMPLED POSTS TOTAL (' + a.views_posts + ' POSTS)') + box(S.full(a.total_engagement), 'SAMPLED POSTS ENGAGEMENT') + '</div>' +
+        (t ? '<div class="mline">28-day (API): views ' + S.full(A.views_28d) + ' \u00b7 reach ' + S.full(A.reach_28d) + ' \u00b7 engaged ' + S.full(A.accounts_engaged_28d) + '</div>' : ''); })(a._api) +
         '<div class="mline">' + S.sup('followers ' + (a._trk.followers_shown ? S.esc(a._trk.followers_shown) : S.full(a._trk.followers)) + ' \u00b7 total posts ' + S.full(a._trk.total_posts) +
-        ' \u00b7 sampled views ' + S.full(a._trk.total_views) + ' \u00b7 sampled engagement ' + S.full(a._trk.total_engagement)) + '</div>' : '') +
+        ' \u00b7 sampled posts total ' + S.full(a._trk.total_views) + ' views \u00b7 sampled engagement ' + S.full(a._trk.total_engagement)) + '</div>' : '') +
       spark(a) + postTable(a) + '</section>';
   }
   function pcard(x) {
@@ -78,9 +80,9 @@
     var g = function (v, l) { return '<div><b>' + v + '</b><span>' + l + '</span></div>'; };
     var T = n._trk, ap = n._api ? ' <b class="apitag">API</b>' : '';
     var banners = '<div class="banners three">' +
-      S.banner('TOTAL VIEWS' + ap, S.ICON.views, S.full(n.total_views), 'total views, recent sampled posts' + (T ? ' (Instagram API for @thatcloudstudio + @thatreasoningshow)' : ''), n.views_posts + ' scored posts, all pages. Pinned posts left out.' + (T ? '<br>' + S.sup(S.full(T.total_views) + ' views on ' + T.views_posts + ' posts') : '')) +
+      S.banner('SAMPLED POSTS TOTAL (' + n.views_posts + ' POSTS)' + ap, S.ICON.views, S.full(n.total_views), 'sum of views on recent sampled posts only, not account views for a period' + (T ? ' (per-post API values for @thatcloudstudio + @thatreasoningshow)' : ''), n.views_posts + ' scored posts, all pages. Pinned posts left out.' + (T ? '<br>' + S.sup(S.full(T.total_views) + ' views on ' + T.views_posts + ' posts') : '')) +
       S.banner('TOTAL REACH' + ap, S.ICON.reach, S.full(n.total_followers), 'reach (followers' + (T ? '; API followers for @thatcloudstudio + @thatreasoningshow' : ', until API data') + ')', 'Followers summed across ' + n.accounts + ' page' + (n.accounts === 1 ? '' : 's') + '.' + (T ? '<br>' + S.sup(S.full(T.total_followers)) : '')) +
-      S.banner('TOTAL ENGAGEMENT', S.ICON_ENG, S.full(n.total_engagement), S.engLabel(n), S.full(n.total_likes) + ' likes + ' + S.full(n.total_comments) + ' comments' + (n.shares_saves_posts ? ' + ' + S.full(n.total_shares) + ' shares + ' + S.full(n.total_saves) + ' saves' : '') + '. Hidden counts left out. Collabs on two pages count once.' + (T ? '<br>' + S.sup(S.full(T.total_engagement)) : '')) + '</div>';
+      S.banner('SAMPLED POSTS ENGAGEMENT', S.ICON_ENG, S.full(n.total_engagement), S.engLabel(n), S.full(n.total_likes) + ' likes + ' + S.full(n.total_comments) + ' comments' + (n.shares_saves_posts ? ' + ' + S.full(n.total_shares) + ' shares + ' + S.full(n.total_saves) + ' saves' : '') + '. Hidden counts left out. Collabs on two pages count once.' + (T ? '<br>' + S.sup(S.full(T.total_engagement)) : '')) + '</div>';
     var sc = n._api ? ' (Nov 21 capture, score input)' : '';
     var glance = '<div class="glance small five">' + g(S.f(n.median_views), 'median views per post' + sc) +
       g(S.f(n.median_rr, 1), 'median Public RR' + sc) + g(n.posts_per_week.toFixed(1), 'posts per week, all pages') +
@@ -107,7 +109,8 @@
       '<div class="sub">Network view: all ' + n.accounts + ' scored page' + (n.accounts === 1 ? '' : 's') + ' together, then each page on its own.</div></div>' +
       '<div class="hero"><div class="hhead"><img src="' + S.esc(p.avatar) + '" alt=""><div class="hname"><div class="cname big">' + S.esc(p.name) + '</div><div class="cniche">' +
       S.esc(p.niche) + ' \u00b7 ' + S.plats(p) + tags + '</div></div><div class="hscore"><div class="lv">NET SCORE</div><div class="big2">' + n.score + '</div>' + S.badge(n.tier) + '</div></div></div>' +
-      '<div class="section">NETWORK TOTALS</div>' + banners + glance +
+      (isBench && d.ig ? '<div class="section">ACCOUNT VIEWS (INSTAGRAM API)</div>' + S.acctBanners(d.ig) : '') +
+      '<div class="section">' + (isBench && d.ig ? 'SAMPLED POSTS (SCORE SAMPLE)' : 'NETWORK TOTALS') + '</div>' + banners + glance +
       '<div class="two"><div class="panel"><div class="ptitle">SCORE PARTS (0-100)</div>' + subbars + '</div>' + fixes + '</div>' +
       (p.watch ? '<div class="watch">\u25B6 ' + S.esc(p.watch) + '</div>' : '') +
       '<div class="section">PAGES</div><div class="pages">' + p.accounts.map(acard).join('') + p.pending.map(pcard).join('') + '</div>' +

@@ -30,3 +30,9 @@ Each value the API replaced still shows, labelled "Tracker, superseded by API".
 2. Run `python3 scripts/build_ig_api.py /path/to/tcs-dashboard/data/ig_live.json` here.
 
 `ig_api.json` keeps only these two accounts and only the posts already sampled in `network.json`. It has no captions and no token. This repo is public.
+
+### Account views vs sampled posts (Nov 23)
+
+The headline views are **account views for the last 30 days** from Instagram Insights (`views_30d` and `reach_30d` in `data/ig_api.json`). The window is a rolling 30 days, the most the Graph API allows, and the 28-day figures sit next to them.
+
+The old "network total views" banners are sums over the score's recent sampled posts. They're now labelled "Sampled posts total (N posts)", so they can't be read as account views.

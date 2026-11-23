@@ -25,12 +25,14 @@ sampled = {p["id"] for part in net["partners"].values() for a in part["accounts"
            if a["platform"] == "Instagram" for p in a["posts"] if p.get("id")}
 
 out = {"source": live["source"], "pulled_at": live["pulled_at"], "pulled_et": live["pulled_et"],
-       "api": live["api"], "window_days": live["window_days"], "window": live["window"], "accounts": {}}
+       "api": live["api"], "window_days": live["window_days"], "window": live["window"],
+       "window_30d": live.get("window_30d"), "accounts": {}}
 for a in live["accounts"]:
     u = a["username"].lower()
     if u not in ALLOWED:
         continue
     ins = a.get("insights_28d") or {}
+    i30 = a.get("insights_30d") or {}
     fu = ins.get("follows_and_unfollows") or {}
     posts = {}
     for p in a["posts"]:
@@ -44,6 +46,8 @@ for a in live["accounts"]:
         "media_count": a["profile"].get("media_count"),
         "reach_28d": ins.get("reach"), "views_28d": ins.get("views"),
         "accounts_engaged_28d": ins.get("accounts_engaged"), "interactions_28d": ins.get("total_interactions"),
+        "views_30d": i30.get("views"), "reach_30d": i30.get("reach"),
+        "accounts_engaged_30d": i30.get("accounts_engaged"), "interactions_30d": i30.get("total_interactions"),
         "follows_28d": fu.get("follows"), "unfollows_28d": fu.get("unfollows"),
         "posts": posts}
 json.dump(out, open(os.path.join(ROOT, "data", "ig_api.json"), "w"), indent=1)

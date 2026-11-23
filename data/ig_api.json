@@ -1,24 +1,33 @@
 {
- "source": "Instagram API (live, pulled 2026-11-23 01:56 ET)",
- "pulled_at": "2026-11-23T06:56:16+00:00",
- "pulled_et": "2026-11-23 01:56",
+ "source": "Instagram API (live, pulled 2026-11-23 02:17 ET)",
+ "pulled_at": "2026-11-23T07:17:53+00:00",
+ "pulled_et": "2026-11-23 02:17",
  "api": "graph.facebook.com v21.0",
  "window_days": 28,
  "window": {
   "since": "2026-10-26",
   "until": "2026-11-23"
  },
+ "window_30d": {
+  "since": "2026-10-24 03:17",
+  "until": "2026-11-23 02:17",
+  "note": "rolling 30 x 24 h ending at pull time (ET); Instagram's app uses its own day boundaries, so its 'last 30 days' can differ"
+ },
  "accounts": {
   "@thatcloudstudio": {
    "followers": 12127,
    "follows": 314,
    "media_count": 1041,
-   "reach_28d": 244028,
-   "views_28d": 720369,
-   "accounts_engaged_28d": 39010,
-   "interactions_28d": 88078,
-   "follows_28d": 802,
-   "unfollows_28d": 409,
+   "reach_28d": 233751,
+   "views_28d": 690914,
+   "accounts_engaged_28d": 37384,
+   "interactions_28d": 84303,
+   "views_30d": 742006,
+   "reach_30d": 251694,
+   "accounts_engaged_30d": 40531,
+   "interactions_30d": 91126,
+   "follows_28d": 762,
+   "unfollows_28d": 393,
    "posts": {
     "DgAfQt0Ovjw": {
      "date": "2026-11-21",
@@ -40,9 +49,9 @@
     },
     "Df-IVd5OPHA": {
      "date": "2026-11-20",
-     "views": 9209,
-     "reach": 6586,
-     "likes": 306,
+     "views": 9230,
+     "reach": 6615,
+     "likes": 307,
      "comments": 11,
      "shares": 92,
      "saves": 31
@@ -58,8 +67,8 @@
     },
     "Df6ICCyunsS": {
      "date": "2026-11-18",
-     "views": 8503,
-     "reach": 5890,
+     "views": 8510,
+     "reach": 5891,
      "likes": 179,
      "comments": 23,
      "shares": 116,
@@ -76,7 +85,7 @@
     },
     "Dfy0ItZOTPZ": {
      "date": "2026-11-16",
-     "views": 3062,
+     "views": 3070,
      "reach": 2228,
      "likes": 50,
      "comments": 4,
@@ -85,8 +94,8 @@
     },
     "Dfx2jsdOCuw": {
      "date": "2026-11-15",
-     "views": 3132,
-     "reach": 2147,
+     "views": 3140,
+     "reach": 2149,
      "likes": 32,
      "comments": 3,
      "shares": 2,
@@ -94,7 +103,7 @@
     },
     "DasqikYOP88": {
      "date": "2026-07-12",
-     "views": 663484,
+     "views": 663494,
      "reach": 427104,
      "likes": 54080,
      "comments": 1216,
@@ -103,7 +112,7 @@
     },
     "DWUz78kjn7F": {
      "date": "2026-03-25",
-     "views": 32286,
+     "views": 32287,
      "reach": 20912,
      "likes": 788,
      "comments": 112,
@@ -112,7 +121,7 @@
     },
     "DV7InVmDlsh": {
      "date": "2026-03-15",
-     "views": 501284,
+     "views": 501286,
      "reach": 300819,
      "likes": 27208,
      "comments": 513,
@@ -125,11 +134,15 @@
    "followers": 897,
    "follows": 18,
    "media_count": 191,
-   "reach_28d": 25598,
-   "views_28d": 66831,
-   "accounts_engaged_28d": 1716,
-   "interactions_28d": 2918,
-   "follows_28d": 53,
+   "reach_28d": 24345,
+   "views_28d": 63679,
+   "accounts_engaged_28d": 1630,
+   "interactions_28d": 2716,
+   "views_30d": 68143,
+   "reach_30d": 26098,
+   "accounts_engaged_30d": 1751,
+   "interactions_30d": 2996,
+   "follows_28d": 50,
    "unfollows_28d": 41,
    "posts": {
     "Df3LvbMidJH": {
@@ -162,7 +175,7 @@
     "Df1Ib5Hx3Dd": {
      "date": "2026-11-17",
      "views": 1611,
-     "reach": 1145,
+     "reach": 1147,
      "likes": 15,
      "comments": 0,
      "shares": 2,
@@ -233,7 +246,7 @@
     },
     "DdW3VQLRSd4": {
      "date": "2026-09-16",
-     "views": 50438,
+     "views": 50440,
      "reach": 33123,
      "likes": 2645,
      "comments": 78,

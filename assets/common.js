@@ -122,6 +122,22 @@
     });
   };
   S.SUP = 'Tracker, superseded by API';
+  /* Account-level views for a period, straight from Instagram Insights. These are the numbers to compare
+     with the Instagram app; sampled-post totals are a different thing and are labelled as such. */
+  S.acctBanners = function (ig) {
+    if (!ig || !ig.accounts) return '';
+    var w = ig.window_30d, has30 = function (a) { return a.views_30d !== null && a.views_30d !== undefined; };
+    var hs = Object.keys(ig.accounts);
+    return '<div class="banners">' + hs.map(function (h) {
+      var a = ig.accounts[h], t = has30(a);
+      return S.banner(S.esc(h.toUpperCase()) + ' \u00b7 ' + (t ? 'LAST 30 DAYS' : 'LAST ' + ig.window_days + ' DAYS') + ' <b class="apitag">API</b>', S.ICON.views,
+        S.full(t ? a.views_30d : a.views_28d), S.esc(h) + ' ' + S.full(t ? a.views_30d : a.views_28d) + ' views (' + (t ? 'last 30 days' : 'last ' + ig.window_days + ' days') + ', Instagram API)',
+        'Reach ' + S.full(t ? a.reach_30d : a.reach_28d) + ' \u00b7 accounts engaged ' + S.full(t ? a.accounts_engaged_30d : a.accounts_engaged_28d) +
+        ' \u00b7 interactions ' + S.full(t ? a.interactions_30d : a.interactions_28d) +
+        (t ? '<br>28-day: ' + S.full(a.views_28d) + ' views \u00b7 reach ' + S.full(a.reach_28d) + ' \u00b7 engaged ' + S.full(a.accounts_engaged_28d) : ''));
+    }).join('') + '</div>' +
+      (w ? '<div class="apiline">Window: ' + S.esc(w.since) + ' \u2192 ' + S.esc(w.until) + ' ET (rolling 30 days; the Graph API allows at most 30 days). Instagram\u2019s app uses its own day boundaries, so its \u201clast 30 days\u201d can differ a little. ' + S.esc(ig.source) + '.</div>' : '');
+  };
   S.sup = function (v) { return '<span class="sup" title="' + S.SUP + ' (Nov 21 public capture)">' + S.SUP + ': ' + v + '</span>'; };
   S.load = function (cb) {
     var ig = fetch('data/ig_api.json', { cache: 'no-store' })
